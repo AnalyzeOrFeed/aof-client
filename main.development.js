@@ -1,5 +1,11 @@
 import { app, BrowserWindow, Menu, crashReporter, shell } from 'electron';
 
+var ipc = require("electron").ipcMain;
+
+ipc.on('test', (event, data) => {
+  console.log('IPC message received');
+});
+
 let menu;
 let template;
 let mainWindow = null;

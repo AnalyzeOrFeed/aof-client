@@ -5,6 +5,7 @@
     <title>Hello Electron React!</title>
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css" />
     <script>
+      var ipc = require('electron').ipcRenderer;
       (function() {
         if (!process.env.HOT) {
           const link = document.createElement('link');
