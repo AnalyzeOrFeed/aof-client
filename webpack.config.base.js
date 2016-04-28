@@ -7,6 +7,9 @@ export default {
       loaders: ['babel-loader'],
       exclude: /node_modules/
     }, {
+      test: /\.scss$/,
+      loader: 'style!css!autoprefixer-loader?browsers=last 2 versions!sass'
+    }, {
       test: /\.json$/,
       loader: 'json-loader'
     }]
