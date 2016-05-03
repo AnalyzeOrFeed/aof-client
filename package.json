@@ -1,14 +1,16 @@
 {
-  "name": "aof-client",
-  "version": "1.0.0",
+  "name": "aof-client-builder",
+  "version": "0.0.1",
   "description": "Open source cross platform client to record, find and watch League of Legends replays",
-  "main": "index.js",
   "scripts": {
+    "postinstall": "npm install --prefix app",
+    "start": "npm run dev",
     "dev": "concurrently --kill-others \"npm run dev-server\" \"npm run dev-client\"",
-    "dev-client": "cross-env NODE_ENV=development electron -r babel-register .",
+    "dev-client": "cross-env NODE_ENV=development electron -r babel-register app/",
     "dev-server": "cross-env NODE_ENV=development node -r babel-register server.js",
     "test": "./node_modules/.bin/mocha test/test.js",
-    "test-e2e": "./node_modules/.bin/mocha test/e2e.js"
+    "test-e2e": "./node_modules/.bin/mocha test/e2e.js",
+    "dist": "./node_modules/.bin/build --platform darwin --platform win32 --arch x64"
   },
   "repository": {
     "type": "git",
@@ -35,16 +37,6 @@
       "email": "marco@aof.gg"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AnalyzeOrFeed/aof-client/issues"
-  },
-  "homepage": "https://github.com/AnalyzeOrFeed/aof-client#readme",
-  "dependencies": {
-    "aof-file-parser": "0.0.1",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2"
-  },
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
@@ -55,6 +47,7 @@
     "concurrently": "^2.0.0",
     "cross-env": "^1.0.7",
     "css-loader": "^0.23.1",
+    "electron-builder": "^3.16.1",
     "electron-prebuilt": "^0.37.8",
     "express": "^4.13.4",
     "json-loader": "^0.5.4",
@@ -67,5 +60,12 @@
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
+  },
+  "build": {
+    "app-bundle-id": "gg.aof.client",
+    "app-category-type": "public.app-category.entertainment",
+    "iconUrl": "https://raw.githubusercontent.com/AnalyzeOrFeed/aof-replay-client/master/src/app/icons/aof.ico",
+    "osx": {},
+    "win": {}
   }
 }

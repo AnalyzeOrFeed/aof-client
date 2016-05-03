@@ -1,0 +1,28 @@
+{
+  "name": "aof-client",
+  "productName": "AnalyzeOrFeed",
+  "description": "Replay client for aof.gg",
+  "version": "0.0.1",
+  "author": "AnalyzeOrFeed <admin@aof.gg> (http://aof.gg/)",
+  "contributors": [
+    {
+      "name": "Andreas Gassmann",
+      "email": "andy@aof.gg"
+    },
+    {
+      "name": "Marco Crespi",
+      "email": "marco@aof.gg"
+    }
+  ],
+  "main": "main.js",
+  "homepage": "https://github.com/AnalyzeOrFeed/aof-client",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnalyzeOrFeed/aof-client/issues"
+  },
+  "dependencies": {
+    "aof-file-parser": "0.0.1",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
