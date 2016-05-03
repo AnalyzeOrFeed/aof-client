@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "concurrently --kill-others \"npm run dev-server\" \"npm run dev-client\"",
     "dev-client": "cross-env NODE_ENV=development electron -r babel-register .",
-    "dev-server": "cross-env NODE_ENV=development node -r babel-register server.js"
+    "dev-server": "cross-env NODE_ENV=development node -r babel-register server.js",
+    "test": "./node_modules/.bin/mocha test/test.js",
+    "test-e2e": "./node_modules/.bin/mocha test/e2e.js"
   },
   "repository": {
     "type": "git",
@@ -56,9 +58,11 @@
     "electron-prebuilt": "^0.37.8",
     "express": "^4.13.4",
     "json-loader": "^0.5.4",
+    "mocha": "^2.4.5",
     "node-sass": "^3.6.0",
     "react-transform-hmr": "^1.0.4",
     "sass-loader": "^3.2.0",
+    "spectron": "^2.37.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.6.1",
