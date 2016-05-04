@@ -1,5 +1,6 @@
 import webpack from "webpack";
 import path from "path";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 
 export default {
 	target: "electron-renderer",
@@ -18,6 +19,10 @@ export default {
 			test: /\.scss$/,
 			loader: "style!css!sass"
 		}, {
+			test: /\.(png|svg|jpg|gif)$/,
+			loader: "url-loader?limit=8192",
+			include: path.resolve(__dirname, "app")
+		}, {
 			test: /\.json$/,
 			loader: "json-loader"
 		}]
@@ -29,11 +34,19 @@ export default {
 		libraryTarget: "commonjs2"
 	},
 	resolve: {
-		extensions: ["", ".js", ".jsx"]
+		extensions: ["", ".js", ".jsx"],
+		alias: {
+	        "components": path.resolve(__dirname, "app/components"),
+	        "modules": path.resolve(__dirname, "app/modules"),
+	        "assets": path.resolve(__dirname, "app/assets"),
+	    }
 	},
 	plugins: [
 		new webpack.optimize.OccurenceOrderPlugin(),
 	    new webpack.HotModuleReplacementPlugin(),
-	    new webpack.NoErrorsPlugin()
+	    new webpack.NoErrorsPlugin(),
+	    new CopyWebpackPlugin([
+			{ from: "app/assets/" }
+		])
 	]
 };
