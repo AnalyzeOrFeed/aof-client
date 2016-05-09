@@ -17,7 +17,7 @@ app.on("window-all-closed", () => {
 	}
 });
 
-ipc.on("open-file", (event, args) => {
+ipc.on("file-open", (event, args) => {
 	let files = [];
 	if (args) files.push(args);
 	else {
@@ -33,18 +33,29 @@ ipc.on("open-file", (event, args) => {
 				event.sender.send("open-file", result.error);
 				return;
 			}
-			
+
 			// Prepare local server
 			server.load(replayMetadata, replayData);
 
 			// Send to GUI
-			replay = replayMetadata;
-			event.sender.send("open-file", replay);
+			replayMetadata.version = replayMetadata.riotVersion;
+			replay = api.prepareGame(replayMetadata);
+			event.sender.send("file-open", JSON.parse(JSON.stringify(replay)));
+
+			// Timeout for testing purposes
+			setTimeout(() => {
+				api.getGame(replay.regionId, replay.gameId, (game) => {
+					if (!game) return;
+					
+					game = api.prepareGame(game);
+					event.sender.send("file-open", JSON.parse(JSON.stringify(game)));
+				});
+			}, 3000);
 		});
 	}
 });
 
-ipc.on("play-file", (event, args) => {
+ipc.on("file-play", (event, args) => {
 	server.reset();
 	
 	playingReplay = true;
@@ -62,8 +73,10 @@ server.start((server, port) => console.log("Local server running on %s:%s", serv
 
 app.on("ready", () => {
 	mainWindow = new BrowserWindow({
-		width: 800,
-		height: 600
+		width: 1600,
+		height: 800,
+		toolbar: false,
+		autoHideMenuBar: true,
 	});
 
 	mainWindow.loadURL("file://" + __dirname + "/index.html");

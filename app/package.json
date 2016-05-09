@@ -21,7 +21,7 @@
     "url": "https://github.com/AnalyzeOrFeed/aof-client/issues"
   },
   "dependencies": {
-    "aof-file-parser": "^0.0.2",
+    "aof-file-parser": "0.0.4",
     "aof-react-components": "^0.0.7",
     "moment": "^2.13.0",
     "react": "^15.0.2",
