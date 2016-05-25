@@ -1,3 +1,6 @@
+let ravenModule = require('raven');
+let raven = new ravenModule.Client('http://fe8fd778489341389142f329641c547f:82d9b3c02a2f48efbd922b0aa5e9c71c@52.91.212.10:8080/6');
+
 import app from "app";
 import BrowserWindow from "browser-window";
 import { ipcMain as ipc, dialog } from "electron";
@@ -10,6 +13,11 @@ import parser from "aof-file-parser";
 let mainWindow = null;
 let replay = null;
 let playingReplay = false;
+
+process.on('uncaughtException', function(e) {
+	raven.captureException(e);
+	console.log('UNCAUGHT EXCEPTION: ', e);
+});
 
 app.on("window-all-closed", () => {
 	if (process.platform != "darwin") {
