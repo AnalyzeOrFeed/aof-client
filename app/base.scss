@@ -14,42 +14,27 @@ html, body {
 #main {
 	position: relative;
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-#header, #footer {
-	left: 0;
-	right: 0;
-	background: $deep-purple;
-	z-index: 999;
-	padding: 0.7em 0.3em;
-
-	.content {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.separator {
-		margin: 0.7em 0;
-		height: 1px;
-		background: linear-gradient(90deg, $white, rgba($white, 0), $white);
-	}
-}
-#header {
-	top: 0;
-}
-#footer {
-	bottom: 0;
 }
 
 #content {
+	box-sizing: border-box;
+	float: right;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	width: calc(100% - 3em);
+	padding-top: 1em;
+	padding-bottom: 5em;
+	min-height: 100vh;
+}
 
-	.component-game {
-		width: 95%;
-	}
+#logo {
+	cursor: pointer;
+	z-index: 200;
+	position: fixed;
+	bottom: 0.2em;
+	left: 0.2em;
+	height: 2.5em;
+	width: 2.5em;
 }

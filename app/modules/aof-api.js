@@ -5,35 +5,35 @@ import request from "request";
 import _       from "lodash";
 
 const baseUrl = "https://api.aof.gg/v2/";
-const ddragonBase = "https://ddragon.leagueoflegends.com/cdn/6.9.1/img/";
+const ddragonBase = "https://ddragon.leagueoflegends.com/cdn/6.10.1/img/";
 
-let token = null;
-let data = require("../assets/meta_6-9-1.json");
+let token = "";
+let data = require("../assets/data/meta_6-10-1.json");
 
-let champions = require("../assets/champion_6-9-1.json");
+let champions = require("../assets/data/champion_6-10-1.json").data;
 _.each(champions, (champ) => {
     champ.image = ddragonBase + "champion/" + champ.image.full;
 });
 
-let spells = require("../assets/spell_6-9-1.json");
+let spells = require("../assets/data/spell_6-10-1.json").data;
 _.each(spells, (spell) => {
     spell.image = ddragonBase + "spell/" + spell.image.full;
 });
 
-let items = require("../assets/item_6-9-1.json");
+let items = require("../assets/data/item_6-10-1.json").data;
 _.each(items, (item) => {
     item.image = ddragonBase + "item/" + item.image.full;
 });
 
 class AofApi {
     constructor() {
-        request.get(baseUrl + "data/static", { json: true }, (err, response, body) => {
-            if (err || response.statusCode != 200) {
-                console.log("Could not get static data: " + err + " " + (response ? response.statusCode : ""));
+        request.get(baseUrl + "data/static", { json: true }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not get static data: " + err + " " + (res ? res.statusCode : ""));
                 return;
             }
 
-            _.each(body.leagues, league => league.image = "assets/" + league.name.toLowerCase() + ".png");
+            _.each(body.leagues, league => league.image = "assets/img/" + league.name.toLowerCase() + ".png");
             data = body;
         });
     }
@@ -43,9 +43,9 @@ class AofApi {
     }
 
     login(email, password, callback) {
-        request.post(baseUrl + "auth", { json: true, body: { email: email, password: password } }, (err, response, body) => {
-            if (err || response.statusCode != 200) {
-                console.log("Could not login: " + err + " " + (response ? response.statusCode : ""));
+        request.post(baseUrl + "auth", { json: true, body: { email: email, password: password } }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not login: " + err + " " + (res ? res.statusCode : ""));
                 callback(false);
                 return;
             }
@@ -56,9 +56,9 @@ class AofApi {
     }
 
     checkMe(callback) {
-        request.get(baseUrl + "user/checkme?token=" + token, { json: true }, (err, response, body) => {
-            if (err || response.statusCode != 200) {
-                console.log("Could not check self: " + err + " " + (response ? response.statusCode : ""));
+        request.post(baseUrl + "check/me?token=" + token, { json: true }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not check self: " + err + " " + (res ? res.statusCode : ""));
                 callback();
                 return;
             }
@@ -67,19 +67,68 @@ class AofApi {
         });
     }
 
-    getGame(regionId, gameId, callback) {
-        request.get(baseUrl + "game/" + regionId + "/" + gameId, { json: true }, (err, response, body) => {
-            if (err || response.statusCode != 200) {
-                console.log("Could not get game: " + err + " " + (response ? response.statusCode : ""));
+    check(regionId, summonerName, callback) {
+        let body = { regionId: regionId, summonerName: summonerName };
+
+        request.post(baseUrl + "check", { json: true, body: body }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not check player: " + err + " " + (res ? res.statusCode : ""));
                 callback();
                 return;
             }
 
+            if (body.game) body.game = this.prepareGame(body.game);
             callback(body);
         });
     }
 
+    getNames(query, regionId, callback) {
+        if (typeof regionId === "function") {
+            callback = regionId;
+            regionId = null;
+        }
+
+        request.get(baseUrl + "names?s=" + query + (regionId ? "&r=" + regionId : ""), { json: true }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not get names: " + err + " " + (res ? res.statusCode : ""));
+                callback();
+                return;
+            }
+            
+            callback(body);
+        });
+    }
+
+    getGame(regionId, gameId, callback) {
+        request.get(baseUrl + "game/" + regionId + "/" + gameId, { json: true }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not get game: " + err + " " + (res ? res.statusCode : ""));
+                callback();
+                return;
+            }
+
+            callback(this.prepareGame(body));
+        });
+    }
+    
+    getFeaturedGames(callback) {
+        let search = { isFeatured: true, hasEndgameStats: true, versionId: data.newestVersion.Id };
+
+        request.post(baseUrl + "search", { json: true, body: search }, (err, res, body) => {
+            if (err || res.statusCode != 200) {
+                console.log("Could not get featured games: " + err + " " + (res ? res.statusCode : ""));
+                callback();
+                return;
+            }
+
+            let games = _.map(res.body.games, game => this.prepareGame(game));
+            callback(games);
+        });
+    }
+
     prepareGame(game) {
+        if (!game) return null;
+
         _.each(game.players, player => {
             player.champion = this.getChampionById(player.championId);
             player.spell1 = this.getSpellById(player.spell1Id);
@@ -96,6 +145,10 @@ class AofApi {
         
         let v = this.getVersionById(game.versionId);
         if (v) game.version = v.riotVersion;
+        else   game.version = game.riotVersion;
+
+        let t = this.getQueueTypeById(game.queueTypeId);
+        if (t) game.type = t.name;
 
         _.each(game.conversions, conv => {
             conv.championName = this.getChampionById(conv.championId).name;
@@ -107,12 +160,20 @@ class AofApi {
         return _.find(data.versions, { id: id });
     }
 
+    get regions() {
+        return data.regions;
+    }
+
     getRegionById(id) {
         return _.find(data.regions, { id: id });
     }
 
     getLeagueById(id) {
         return _.find(data.leagues, { id: id });
+    }
+
+    getQueueTypeById(id) {
+        return _.find(data.queueTypes, { id: id });
     }
 
     getChampionById(id) {

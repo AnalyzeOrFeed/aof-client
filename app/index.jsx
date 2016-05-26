@@ -2,59 +2,41 @@
 
 import React    from "react";
 import ReactDOM from "react-dom";
-import { ipcRenderer as ipc } from "electron";
+import { shell } from "electron";
+import { Router, Route, Link, hashHistory, IndexRedirect } from "react-router";
 
-import Button from "aof-react-components/button";
-import Game from "aof-react-components/game";
 import Tooltip from "aof-react-components/tooltip";
 import SearchableModal from "aof-react-components/searchable-modal";
 
-import Header from "components/header";
-import Footer from "components/footer";
+import Menu     from "components/menu";
+import Footer   from "components/footer";
+import Home     from "components/home";
+import Watch    from "components/watch";
+import Featured from "components/featured";
+import Profile  from "components/profile";
 
 let App = React.createClass({
 	componentWillMount: function() {
         require("./base.scss");
     },
     componentDidMount: function() {
-		ipc.on("file-open", (event, replay) => {
-			console.log(replay);
-			this.setState({
-				replay: replay
-			});
-		});
     },
 	getInitialState: function() {
-		return {
-			file: null,
-			status: "Ready",
-		};
+		return {};
 	},
-	handleOpenFile: function() {
-		ipc.send("file-open");
-	},
-	handleWatch: function() {
-		ipc.send("file-play");
+	handleLogoClick: function() {
+		shell.openExternal("https://aof.gg");
 	},
 	render: function() {
 		return <div id="main">
-			<Header>
-				<Button onClick={ this.handleOpenFile } small={ true }>Open</Button>
-			</Header>
-
+			<Menu />
+			
 			<div id="content">
-				{ this.state.replay ?
-					<Game
-						game={ this.state.replay }
-						onWatch={ this.handleWatch }
-					/>
-				: null }
+				{ this.props.children }
 			</div>
 
-			<Footer>
-				<div>{ this.state.status }</div>
-				<div>&copy; Analyze Or Feed 2016</div>
-			</Footer>
+			<Footer />
+			<div id="logo" onClick={ this.handleLogoClick } ><img src={ require("assets/img/logo.svg") } /></div>
 
 			<Tooltip />
 			<SearchableModal />
@@ -62,4 +44,14 @@ let App = React.createClass({
 	}
 });
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render((
+	<Router history={ hashHistory }>
+		<Route path="/" component={ App }>
+			<IndexRedirect to="/home" />
+			<Route path="home" component={ Home } />
+			<Route path="watch" component={ Watch } />
+			<Route path="featured" component={ Featured } />
+			<Route path="profile" component={ Profile } />
+		</Route>
+	</Router>
+), document.getElementById("app"));

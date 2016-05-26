@@ -20,8 +20,7 @@ export default {
 			loader: "style!css!sass"
 		}, {
 			test: /\.(png|svg|jpg|gif)$/,
-			loader: "url-loader?limit=8192",
-			include: path.resolve(__dirname, "app")
+			loader: "url-loader?limit=8192"
 		}, {
 			test: /\.json$/,
 			loader: "json-loader"

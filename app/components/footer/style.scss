@@ -1,0 +1,22 @@
+@import "../../config.scss";
+
+#footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: $deep-purple;
+
+	.content {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		padding: 0.5em;
+	}
+
+	.separator {
+		height: 1px;
+		background: linear-gradient(90deg, transparent, $white);
+	}
+}

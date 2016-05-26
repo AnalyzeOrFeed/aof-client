@@ -8,7 +8,7 @@
 		<div id="app"></div>
 		<script src="raven.min.js"></script>
 		<script>
-			Raven.config('http://d290f0b89cc44907bea2e67a63f17cf6@52.91.212.10:8080/5').install();
+			Raven.config("http://d290f0b89cc44907bea2e67a63f17cf6@sentry.aof.gg/5").install();
 			(function() {
 				const script = document.createElement("script");
 				script.src = (process.env.NODE_ENV == "development") ? "http://localhost:3000/dist/bundle.js" : "../dist/bundle.js";

@@ -1,0 +1,87 @@
+@import "../../config.scss";
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 3em;
+	background: $deep-purple;
+	z-index: 100;
+
+	.toggle {
+		padding-top: 0.5em;
+		padding-left: 0.2em;
+
+		.component-button-image {
+			border-style: none;
+		}
+	}
+
+	.titles {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 1em;
+
+		.title {
+			font-size: 1.4em;
+		}
+		.sub-title {
+			opacity: 0.5;
+			font-size: 0.8em;
+			margin-bottom: 3em;
+		}
+	}
+
+	.components {
+		position: absolute;
+		top: 10em;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		a {
+			box-sizing: border-box;
+			width: 100%;
+			padding-left: 0.8em;
+			color: $white;
+			text-decoration: none;
+			margin-bottom: 1em;
+			min-height: 1.2em;
+			display: flex;
+			align-items: center;
+
+			&.active {
+				opacity: 0.5;
+				cursor: default;
+				pointer-events: none;
+			}
+
+			img {
+				margin-right: 0.5em;
+			}
+		}
+	}
+
+	.separator {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		height: 100%;
+		width: 1px;
+		background: linear-gradient(180deg, $white, transparent);
+	}
+
+	transition: width 0.2s ease-in-out;
+
+	&.open {
+		width: 200px;
+
+		.component-button-image img {
+			transform: rotate(90deg);
+		}
+	}
+}

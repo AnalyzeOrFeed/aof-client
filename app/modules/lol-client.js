@@ -194,7 +194,7 @@ class LolClient {
 	}
 
 	// Run the League of Legends client and tell it to spectate the specified endpoint
-	launch(host, port, replayGameId, replayKey, callback) {
+	launch(host, port, replayRegion, replayGameId, replayKey, callback) {
 		// Check if the client is already running
 		if (running) {
 			callback(false);
@@ -206,7 +206,7 @@ class LolClient {
 			callback(false);
 			return;
 		}
-		
+
 		// Set LoL client executable/app name
 		let exe = "";
 		if (process.platform == "win32") exe = "League of Legends.exe";
@@ -217,8 +217,9 @@ class LolClient {
 			"8394", 
 			"LoLLauncher.exe", 
 			"", 
-			"spectator " + host + ":" + port + " " + replayKey + " " + replayGameId + " AOF"
+			"replay " + host + ":" + port + " " + replayKey + " " + replayGameId + " " + replayRegion
 		];
+		console.log(args);
 		
 		// Set options
 		let opts = { stdio: "ignore" };

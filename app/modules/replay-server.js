@@ -21,6 +21,8 @@ class ReplayServer {
                 return;
             }
             
+            console.log(request.url);
+
             if (request.url.indexOf("/observer-mode/rest/consumer/version") > -1) {
                 response.end("1.82.102");
             } else if (request.url.indexOf("/observer-mode/rest/consumer/getGameMetaData/") > -1) {
@@ -32,7 +34,7 @@ class ReplayServer {
             } else if (request.url.indexOf("/observer-mode/rest/consumer/getLastChunkInfo/") > -1) {
                 let info = lastChunkInfo.replace("$cid", chunkId);
                 info = info.replace("$kid", Math.floor((Math.max(Math.floor((chunkId - replay.startGameChunkId) / 2) + 1, 0))));
-                info = info.replace("$nac", chunkId == replay.endStartupChunkId ? "30000" : "1000");
+                info = info.replace("$nac", chunkId == replay.endStartupChunkId ? "30000" : "5");
                 info = info.replace("$endStartupChunkId", replay.endStartupChunkId);
                 info = info.replace("$startGameChunkId", replay.startGameChunkId);
                 info = info.replace("$endGameChunkId", replay.endGameChunkId);

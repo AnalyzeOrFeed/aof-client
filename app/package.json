@@ -22,11 +22,13 @@
   },
   "dependencies": {
     "aof-file-parser": "0.0.4",
-    "aof-react-components": "^0.0.7",
+    "aof-react-components": "^0.0.14",
     "moment": "^2.13.0",
     "raven": "^0.11.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-router": "^2.4.0",
+    "superagent": "^1.8.3",
     "winreg": "^1.2.0"
   }
 }

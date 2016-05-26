@@ -1,9 +1,5 @@
-let ravenModule = require('raven');
-let raven = new ravenModule.Client('http://fe8fd778489341389142f329641c547f:82d9b3c02a2f48efbd922b0aa5e9c71c@52.91.212.10:8080/6');
-
-import app from "app";
-import BrowserWindow from "browser-window";
-import { ipcMain as ipc, dialog } from "electron";
+import raven from "raven";
+import { app, BrowserWindow, ipcMain as ipc, dialog } from "electron";
 
 import api    from "./modules/aof-api";
 import server from "./modules/replay-server";
@@ -14,9 +10,10 @@ let mainWindow = null;
 let replay = null;
 let playingReplay = false;
 
-process.on('uncaughtException', function(e) {
+let ravenClient = new raven.Client("http://fe8fd778489341389142f329641c547f:82d9b3c02a2f48efbd922b0aa5e9c71c@sentry.aof.gg/6");
+process.on("uncaughtException", function(e) {
+	console.log("UNCAUGHT EXCEPTION: ", e);
 	raven.captureException(e);
-	console.log('UNCAUGHT EXCEPTION: ', e);
 });
 
 app.on("window-all-closed", () => {
@@ -25,51 +22,70 @@ app.on("window-all-closed", () => {
 	}
 });
 
-ipc.on("file-open", (event, args) => {
+ipc.on("file-open", (event, arg) => {
 	let files = [];
-	if (args) files.push(args);
+	if (arg) files.push(arg);
 	else {
 		files = dialog.showOpenDialog(mainWindow, {
 			filters: [{ name: 'AoF Replay File', extensions: ['aof'] }],
 			properties: [ "openFile" ]
 		});
 	}
-	
-	if (files && files.length) {
-		parser.load(files[0], (result, replayMetadata, replayData) => {
-			if (!result.success) {
-				event.sender.send("open-file", result.error);
-				return;
-			}
 
-			// Prepare local server
-			server.load(replayMetadata, replayData);
-
-			// Send to GUI
-			replayMetadata.version = replayMetadata.riotVersion;
-			replay = api.prepareGame(replayMetadata);
-			event.sender.send("file-open", JSON.parse(JSON.stringify(replay)));
-
-			// Timeout for testing purposes
-			setTimeout(() => {
-				api.getGame(replay.regionId, replay.gameId, (game) => {
-					if (!game) return;
-					
-					game = api.prepareGame(game);
-					event.sender.send("file-open", JSON.parse(JSON.stringify(game)));
-				});
-			}, 3000);
-		});
+	if (!files || !files.length) {
+		event.sender.send("file-open", { replay: null });
+		return;
 	}
+	
+	parser.load(files[0], (result, replayMetadata, replayData) => {
+		if (!result.success) {
+			event.sender.send("open-file", { error: result.error });
+			return;
+		}
+
+		// Prepare local server
+		server.load(replayMetadata, replayData);
+
+		// Save metadata
+		replay = replayMetadata;
+
+		// Send to GUI
+		event.sender.send("file-open", { replay: JSON.parse(JSON.stringify(replayMetadata)) });
+	});
 });
 
-ipc.on("file-play", (event, args) => {
+ipc.on("file-watch", (event, arg) => {
 	server.reset();
 	
 	playingReplay = true;
 	mainWindow.minimize();
 	
-	client.launch(server.host, server.port, replay.gameId, replay.key, (success) => {
+	client.launch(server.host, server.port, "EUW1", replay.gameId, replay.key, success => {
+		playingReplay = false;
+		mainWindow.restore();
+		
+		if (!success) console.log("Could not start league of legends client.");
+	});
+});
+
+ipc.on("live-watch", (event, arg) => {
+	playingReplay = true;
+	mainWindow.minimize();
+
+	console.log(arg);
+	client.launch(arg.host, 80, arg.region, arg.gameId, arg.key, success => {
+		playingReplay = false;
+		mainWindow.restore();
+		
+		if (!success) console.log("Could not start league of legends client.");
+	});
+});
+
+ipc.on("replay-watch", (event, arg) => {
+	playingReplay = true;
+	mainWindow.minimize();
+	
+	client.launch("replay.aof.gg", 80, "AOF" + arg.regionId, arg.id, arg.encryptionKey, (success) => {
 		playingReplay = false;
 		mainWindow.restore();
 		
