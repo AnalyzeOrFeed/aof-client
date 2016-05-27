@@ -86,8 +86,8 @@ module.exports = React.createClass({
 				if (res.error == 404) this.setState({ response: "Could not find summoner" });
 				else                  this.setState({ response: res.error });
 			} else if (res.game) {
-				game.isLive = true;
-				this.setState({ modal: false, replay: game });
+				res.game.isLive = true;
+				this.setState({ modal: false, replay: res.game });
 			} else if (res.gameId) {
 				this.setState({ });
 			} else {
