@@ -10,11 +10,8 @@ let mainWindow = null;
 let replay = null;
 let playingReplay = false;
 
-let ravenClient = new raven.Client("http://fe8fd778489341389142f329641c547f:82d9b3c02a2f48efbd922b0aa5e9c71c@sentry.aof.gg/6");
-process.on("uncaughtException", function(e) {
-	console.log("UNCAUGHT EXCEPTION: ", e);
-	raven.captureException(e);
-});
+let ravenClient = new raven.Client("http://71524752dc5f48a78a5d23142c8ee5a9@sentry.aof.gg/6");
+ravenClient.patchGlobal(() => process.exit(1));
 
 app.on("window-all-closed", () => {
 	if (process.platform != "darwin") {
