@@ -59,6 +59,10 @@
 				pointer-events: none;
 			}
 
+			&:hover {
+				opacity: 0.75;
+			}
+
 			img {
 				margin-right: 0.5em;
 			}

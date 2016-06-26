@@ -1,11 +1,57 @@
 @import "../../config.scss";
 
-.component-home {
+.component-profile-login {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	h1 {
 		margin-bottom: 1.5em;
+	}
+
+	input {
+        padding: 0.4em;
+        background-color: transparent;
+        border: 1px solid $white;
+        outline: none;
+        font-size: inherit;
+        color: inherit;
+        margin-bottom: 4px;
+    }
+}
+
+.component-profile {
+	width: 100%;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: rows;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	h2 {
+		text-align: center;
+	}
+
+	.profile {
+		padding: 0 1em;
+		min-width: 220px;
+
+		.row {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+			margin-bottom: 3em;
+		}
+	}
+
+	.games {
+		flex: 1;
+		padding: 0 1em;
+
+		.component-game {
+			margin-bottom: 3em;
+		}
 	}
 }

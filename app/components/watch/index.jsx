@@ -3,9 +3,11 @@
 import React    from "react";
 import ReactDOM from "react-dom";
 import { ipcRenderer as ipc } from "electron";
+import _ from "lodash";
 
-import API from "modules/aof-api";
-import AppStore from "modules/app-store";
+import AppStore from "stores/app-store";
+import ApiStore from "stores/api-store";
+
 import Game from "aof-react-components/game";
 import Button from "aof-react-components/button";
 import Modal from "aof-react-components/modal";
@@ -25,11 +27,10 @@ module.exports = React.createClass({
 				return;
 			};
 
-			this.setState({ replay: API.prepareGame(data.replay) });
+			this.setState({ replay: ApiStore.prepareGame(data.replay) });
 
 			AppStore.setStatus("Loading endgame stats from aof.gg...");
-			API.getGame(data.replay.regionId, data.replay.gameId, game => {
-
+			ApiStore.getGame(data.replay.regionId, data.replay.gameId, game => {
 				AppStore.clearStatus();
 				this.setState({ replay: game });
 			});
@@ -42,7 +43,7 @@ module.exports = React.createClass({
 		return {
 			modal: false,
 			checking: false,
-			regionId: API.regions[0].id,
+			regionId: ApiStore.regions[0].id,
 			summonerName: "",
 			replay: null,
 			error: null,
@@ -50,7 +51,7 @@ module.exports = React.createClass({
 		};
 	},
 	getResults: function(query, callback) {
-		API.getNames(query, this.state.regionId, names => callback(names));
+		ApiStore.getNames(query, this.state.regionId, names => callback(names));
 	},
 	showWatchPlayer: function() {
 		this.setState({ modal: true });
@@ -60,16 +61,17 @@ module.exports = React.createClass({
 	},
 	handleWatch: function() {
 		if (!this.state.replay.isLive)
-			ipc.send("file-watch");
+			ipc.send("watch");
 		else {
-			let region = API.getRegionById(this.state.replay.regionId);
+			let region = ApiStore.getRegionById(this.state.replay.regionId);
 			let splits = region.spectatorUrl.substring(7).split(":");
 			let host = _.trimEnd(splits[0], "/");
 			let port = parseInt(splits[1]);
 			if (!isFinite(port)) port = 80;
 			
-			ipc.send("live-watch", {
+			ipc.send("watch", {
 				host: host,
+				port: port,
 				region: region.spectatorRegion,
 				gameId: this.state.replay.id,
 				key: this.state.replay.encryptionKey,
@@ -79,7 +81,7 @@ module.exports = React.createClass({
 	handleWatchPlayer: function() {
 		this.setState({ checking: true, response: "" });
 
-		API.check(this.state.regionId, this.state.summonerName, res => {
+		ApiStore.check(this.state.regionId, this.state.summonerName, res => {
 			this.setState({ checking: false });
 			
 			if (res.error) {
@@ -112,7 +114,7 @@ module.exports = React.createClass({
 					<div>
 						<RegionSelect
 							name="regionId"
-							regions={ API.regions }
+							regions={ ApiStore.regions }
 							value={ this.state.regionId }
 							valueBy="id"
 							displayBy="shortName"

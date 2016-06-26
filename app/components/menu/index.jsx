@@ -4,7 +4,8 @@ import React    from "react";
 import ReactDOM from "react-dom";
 import { Link } from "react-router";
 
-import AppStore from "modules/app-store";
+import AppStore from "stores/app-store";
+
 import Button from "aof-react-components/button";
 import ButtonImage from "aof-react-components/button-image";
 import { hashHistory } from "react-router";

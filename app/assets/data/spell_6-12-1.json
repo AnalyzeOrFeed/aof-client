@@ -1,6 +1,6 @@
 {
     "type": "summoner",
-    "version": "6.10.1",
+    "version": "6.12.1",
     "data": {
         "SummonerBoost": {
             "name": "Cleanse",
@@ -100,7 +100,7 @@
         },
         "SummonerMana": {
             "name": "Clarity",
-            "description": "Restores 40% of your champion's maximum Mana. Also restores allies for 40% of their maximum Mana.",
+            "description": "Restores 50% of your champion's maximum Mana. Also restores allies for 25% of their maximum Mana.",
             "image": {
                 "full": "SummonerMana.png",
                 "sprite": "spell0.png",

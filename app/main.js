@@ -1,24 +1,63 @@
-import raven from "raven";
-import { app, BrowserWindow, ipcMain as ipc, dialog } from "electron";
+"use strict";
 
-import api    from "./modules/aof-api";
-import server from "./modules/replay-server";
-import client from "./modules/lol-client";
+// Imports
+// =============================================================================
+import { app, BrowserWindow, ipcMain as ipc, dialog } from "electron";
+import fs from "fs";
+import _ from "lodash";
+import raven from "raven";
+import request from "request";
+import mkdirp from "mkdirp";
 import parser from "aof-file-parser";
 
+import "./modules/globals";
+import server from "./modules/replay-server";
+import client from "./modules/lol-client";
+import record from "./modules/recording";
+
+
+// Variables and functions
+// =============================================================================
 let mainWindow = null;
 let replay = null;
-let playingReplay = false;
 
+// Create required paths
+mkdirp.sync(global.paths.cache);
+mkdirp.sync(global.paths.replays);
+
+
+// Raven
+// =============================================================================
 let ravenClient = new raven.Client("http://71524752dc5f48a78a5d23142c8ee5a9@sentry.aof.gg/6");
-ravenClient.patchGlobal(() => process.exit(1));
+//ravenClient.patchGlobal(() => process.exit(1));
 
-app.on("window-all-closed", () => {
-	if (process.platform != "darwin") {
-		app.quit();
-	}
+
+// System information
+// =============================================================================
+console.log("--- SYSTEM INFORMATION ---");
+console.log(process.platform + "-" + process.arch);
+console.log(JSON.stringify(global.paths, null, 2));
+console.log(JSON.stringify(process.versions, null, 2));
+console.log("--- END SYSTEM INFORMATION ---")
+
+
+// Local recording
+// =============================================================================
+record.on("recordingStatus", message => {
+	mainWindow.webContents.send("recordingStatus", message);
+});
+record.on("recordingDone", replay => {
+	mainWindow.webContents.send("recordingStatus", "Replay complete!");
 });
 
+
+// Local replay server
+// =============================================================================
+server.start((server, port) => console.log("Local server running on %s:%s", server, port));
+
+
+// IPC
+// =============================================================================
 ipc.on("file-open", (event, arg) => {
 	let files = [];
 	if (arg) files.push(arg);
@@ -51,52 +90,33 @@ ipc.on("file-open", (event, arg) => {
 	});
 });
 
-ipc.on("file-watch", (event, arg) => {
-	server.reset();
-	
-	playingReplay = true;
+ipc.on("watch", (event, arg) => {
+	let host = arg ? arg.host : server.host;
+	let port = arg ? arg.port : server.port;
+	let region = arg ? arg.region : "AOF";
+	let gameId = arg ? arg.gameId : replay.gameId;
+	let key = arg ? arg.key : replay.key;
+
+	global.app.playingReplay = true;
 	mainWindow.minimize();
 	
-	client.launch(server.host, server.port, "EUW1", replay.gameId, replay.key, success => {
-		playingReplay = false;
+	client.launch(host, port, region, gameId, key, success => {
+		global.app.playingReplay = false;
 		mainWindow.restore();
 		
-		if (!success) console.log("Could not start league of legends client.");
+		if (!success) console.log("Could not run league of legends client.");
 	});
 });
 
-ipc.on("live-watch", (event, arg) => {
-	playingReplay = true;
-	mainWindow.minimize();
 
-	console.log(arg);
-	client.launch(arg.host, 80, arg.region, arg.gameId, arg.key, success => {
-		playingReplay = false;
-		mainWindow.restore();
-		
-		if (!success) console.log("Could not start league of legends client.");
-	});
-});
-
-ipc.on("replay-watch", (event, arg) => {
-	playingReplay = true;
-	mainWindow.minimize();
-	
-	client.launch("replay.aof.gg", 80, "AOF" + arg.regionId, arg.id, arg.encryptionKey, (success) => {
-		playingReplay = false;
-		mainWindow.restore();
-		
-		if (!success) console.log("Could not start league of legends client.");
-	});
-});
-
-server.start((server, port) => console.log("Local server running on %s:%s", server, port));
-
+// Application window
+// =============================================================================
 app.on("ready", () => {
 	mainWindow = new BrowserWindow({
 		width: 1600,
 		height: 800,
 		toolbar: false,
+		"min-width": 800,
 		autoHideMenuBar: true,
 	});
 
@@ -113,4 +133,10 @@ app.on("ready", () => {
 	client.find((found, path, version) => {
 		console.log("%s %s %s", found, path, version);
 	});
+
+	// Check for running games
+	setInterval(() => record.checkForLeague(), 5000);
+});
+app.on("window-all-closed", () => {
+	if (process.platform != "darwin") app.quit();
 });

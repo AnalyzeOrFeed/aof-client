@@ -1,6 +1,6 @@
 {
     "type": "item",
-    "version": "6.10.1",
+    "version": "6.12.1",
     "basic": {
         "id": 0,
         "name": "",
@@ -865,7 +865,7 @@
         "2047": {
             "id": 2047,
             "name": "Oracle's Extract",
-            "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible units for up to 5 minutes or until death.",
+            "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible units for 5 minutes.",
             "plaintext": "Allows champion to see invisible units",
             "image": {
                 "full": "2047.png",
@@ -909,8 +909,9 @@
         "2051": {
             "id": 2051,
             "name": "Guardian's Horn",
-            "description": "<stats>+200 Health<br>+125% Base Health Regeneration </stats><br><br><unique>UNIQUE Passive:</unique> Enemy spellcasts reduce the cooldown of Battle Cry by 1 second.<br><active>UNIQUE Active - Battle Cry:</active> Gain 30% Movement Speed, 20 Armor, and 20 Magic Resist for 3 seconds. 25 second cooldown.",
-            "plaintext": "Activate for Movement Speed and a defensive boost",
+            "group": "GuardianItems",
+            "description": "<stats>+150 Health</stats><br><passive>Passive: </passive>Restores 20 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 12 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).<br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
+            "plaintext": "Good starting item for tanks",
             "image": {
                 "full": "2051.png",
                 "sprite": "item0.png",
@@ -924,7 +925,7 @@
         "2052": {
             "id": 2052,
             "name": "Poro-Snax",
-            "group": "RelicBase",
+            "group": "PoroSnax",
             "description": "This savory blend of free-range, grass-fed Avarosan game hens and organic, non-ZMO Freljordian herbs contains the essential nutrients necessary to keep your Poro purring with pleasure.<br><br><i>All proceeds will be donated towards fighting Noxian animal cruelty.</i>",
             "image": {
                 "full": "2052.png",
@@ -1111,7 +1112,7 @@
             "id": 3006,
             "name": "Berserker's Greaves",
             "group": "BootsUpgrades",
-            "description": "<stats> +30% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+            "description": "<stats> +35% Attack Speed</stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
             "plaintext": "Enhances Movement Speed and Attack Speed",
             "image": {
                 "full": "3006.png",
@@ -1126,7 +1127,7 @@
         "3007": {
             "id": 3007,
             "name": "Archangel's Staff (Crystal Scar)",
-            "description": "<stats>+80 Ability Power<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +12 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Seraph's Embrace at +750 Mana.</mana>",
+            "description": "<stats>+80 Ability Power<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent. <br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +12 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Seraph's Embrace at +750 Mana.</mana>",
             "plaintext": "Increases Ability Power based on maximum Mana",
             "image": {
                 "full": "3007.png",
@@ -1157,7 +1158,7 @@
             "id": 3009,
             "name": "Boots of Swiftness",
             "group": "BootsUpgrades",
-            "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +60 Movement Speed<br><unique>UNIQUE Passive - Slow Resist:</unique> Movement slowing effects are reduced by 25%.",
+            "description": "<unique>UNIQUE Passive - Enhanced Movement:</unique> +55 Movement Speed<br><unique>UNIQUE Passive - Slow Resist:</unique> Movement slowing effects are reduced by 25%.",
             "plaintext": "Enhances Movement Speed and reduces the effect of slows",
             "image": {
                 "full": "3009.png",
@@ -1188,7 +1189,7 @@
             "id": 3020,
             "name": "Sorcerer's Shoes",
             "group": "BootsUpgrades",
-            "description": "<stats>+15 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed<br><br><rules>(Magic Penetration: Magic damage is increased by ignoring an amount of the target's Magic Resist equal to Magic Penetration.)</rules>",
+            "description": "<stats>+15 <a href='FlatMagicPen'>Magic Penetration</a></stats><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
             "plaintext": "Enhances Movement Speed and magic damage",
             "image": {
                 "full": "3020.png",
@@ -1263,7 +1264,7 @@
         "3027": {
             "id": 3027,
             "name": "Rod of Ages",
-            "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per minute (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 25% of the cost as Health, up to 25 per spell cast.  ",
+            "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per minute (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
             "plaintext": "Greatly increases Health, Mana, and Ability Power",
             "image": {
                 "full": "3027.png",
@@ -1293,7 +1294,7 @@
         "3029": {
             "id": 3029,
             "name": "Rod of Ages (Crystal Scar)",
-            "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per 40 seconds (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 25% of the cost as Health, up to 25 per spell cast.",
+            "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per 40 seconds (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
             "plaintext": "Greatly increases Health, Mana, and Ability Power",
             "image": {
                 "full": "3029.png",
@@ -1308,7 +1309,7 @@
         "3030": {
             "id": 3030,
             "name": "Hextech GLP-800",
-            "description": "<stats>+300 Health<br><mana>+400 Mana</mana><br>+80 Ability Power</stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 25% of the cost as Health, up to 25 per spell cast.<br><unique>UNIQUE Active - Frost Bolt:</unique> Fires a spray of icy bolts that explode, dealing <levelScale>100 - 200</levelScale> (+35% of your Ability Power) magic damage to all enemies hit. (40 second cooldown, shared with other <font color='#9999FF'><a href='itembolt'>Hextech</a></font> items).<br><br>Enemies hit are slowed by 65% decaying over 0.5 seconds.<br><br><rules>(Frost Bolt has a cast time, in contrast to most actives.)</rules> ",
+            "description": "<stats>+300 Health<br><mana>+400 Mana</mana><br>+80 Ability Power</stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.<br><unique>UNIQUE Active - Frost Bolt:</unique> Fires a spray of icy bolts that explode, dealing <levelScale>100 - 200</levelScale> (+35% of your Ability Power) magic damage to all enemies hit. (40 second cooldown, shared with other <font color='#9999FF'><a href='itembolt'>Hextech</a></font> items).<br><br>Enemies hit are slowed by 65% decaying over 0.5 seconds.<br><br><rules>(Frost Bolt has a cast time, in contrast to most actives.)</rules> ",
             "plaintext": "Activate to fire icy bolts to slow enemies",
             "image": {
                 "full": "3030.png",
@@ -1323,7 +1324,7 @@
         "3031": {
             "id": 3031,
             "name": "Infinity Edge",
-            "description": "<stats>+65 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strike bonus damage is increased by 50%.",
+            "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strike bonus damage is increased by 50%.",
             "plaintext": "Massively enhances critical strikes",
             "image": {
                 "full": "3031.png",
@@ -1338,7 +1339,7 @@
         "3033": {
             "id": 3033,
             "name": "Mortal Reminder",
-            "description": "<stats>+40 Attack Damage</stats><br><br><unique>UNIQUE Passive - Executioner:</unique> Physical damage inflicts <a href='GrievousWounds'>Grievous Wounds</a> on enemy champions for 5 seconds.<br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>.",
+            "description": "<stats>+50 Attack Damage</stats><br><br><unique>UNIQUE Passive - Executioner:</unique> Physical damage inflicts <a href='GrievousWounds'>Grievous Wounds</a> on enemy champions for 5 seconds.<br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>.",
             "plaintext": "Overcomes enemies with high Health recovery and Armor",
             "image": {
                 "full": "3033.png",
@@ -1383,7 +1384,7 @@
         "3036": {
             "id": 3036,
             "name": "Lord Dominik's Regards",
-            "description": "<stats>+40 Attack Damage</stats><br><br><unique>UNIQUE Passive - Giant Slayer:</unique> Grants up to +15% physical damage against enemy champions with greater maximum Health than you (+1.5% damage per 50 Health difference, maxing at 500 Health difference).<br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>",
+            "description": "<stats>+50 Attack Damage</stats><br><br><unique>UNIQUE Passive - Giant Slayer:</unique> Grants up to +15% physical damage against enemy champions with greater maximum Health than you (+1.5% damage per 50 Health difference, maxing at 500 Health difference).<br><unique>UNIQUE Passive - Last Whisper:</unique> +45% <a href='BonusArmorPen'>Bonus Armor Penetration</a>",
             "plaintext": "Overcomes enemies with high health and armor",
             "image": {
                 "full": "3036.png",
@@ -1486,7 +1487,7 @@
             "id": 3047,
             "name": "Ninja Tabi",
             "group": "BootsUpgrades",
-            "description": "<stats>+30 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 10% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
+            "description": "<stats>+30 Armor</stats><br><br><unique>UNIQUE Passive:</unique> Blocks 12% of the damage from basic attacks.<br><unique>UNIQUE Passive - Enhanced Movement:</unique> +45 Movement Speed",
             "plaintext": "Enhances Movement Speed and reduces incoming basic attack damage",
             "image": {
                 "full": "3047.png",
@@ -1771,7 +1772,7 @@
         "3078": {
             "id": 3078,
             "name": "Trinity Force",
-            "description": "<stats>+250 Health<br>+25 Attack Damage<br>+20% Critical Strike Chance<br>+15% Attack Speed<br>+10% Cooldown Reduction<br>+5% Movement Speed<br><mana>+250 Mana</mana></stats><br><br><unique>UNIQUE Passive - Rage:</unique> Basic attacks grant 20 Movement Speed for 2 seconds. Kills grant 60 Movement Speed instead. This Movement Speed bonus is halved for ranged champions.<br><unique>UNIQUE Passive - Spellblade:</unique> After using an ability, the next basic attack deals bonus physical damage equal to 200% of base Attack Damage on hit (1.5 second cooldown).",
+            "description": "<stats>+250 Health<br><mana>+250 Mana</mana><br>+25 Attack Damage<br>+40% Attack Speed<br>+20% Cooldown Reduction<br>+5% Movement Speed</stats><br><br><unique>UNIQUE Passive - Rage:</unique> Basic attacks grant 20 Movement Speed for 2 seconds. Kills grant 60 Movement Speed instead. This Movement Speed bonus is halved for ranged champions.<br><unique>UNIQUE Passive - Spellblade:</unique> After using an ability, the next basic attack deals bonus physical damage equal to 200% of base Attack Damage on hit (1.5 second cooldown).",
             "plaintext": "Tons of Damage",
             "image": {
                 "full": "3078.png",
@@ -2015,7 +2016,7 @@
         "3101": {
             "id": 3101,
             "name": "Stinger",
-            "description": "<stats>+50% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction",
+            "description": "<stats>+35% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction",
             "plaintext": "Increased Attack Speed and Cooldown Reduction",
             "image": {
                 "full": "3101.png",
@@ -2120,9 +2121,10 @@
         },
         "3112": {
             "id": 3112,
-            "name": "Orb of Winter",
-            "description": "<stats>+70 Magic Resist<br>+100% Base Health Regeneration </stats><br><br><unique>UNIQUE Passive:</unique> Grants a shield that absorbs up to 30 (+10 per level) damage. The shield will refresh after 9 seconds without receiving damage.",
-            "plaintext": "Grants a shield when out of combat",
+            "name": "Guardian's Orb",
+            "group": "GuardianItems",
+            "description": "<stats>+150 Health<br>+30 Ability Power<br><mana>+10 Mana regen per 5 seconds</mana></stats><br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
+            "plaintext": "Good starting item for mages",
             "image": {
                 "full": "3112.png",
                 "sprite": "item1.png",
@@ -2362,7 +2364,7 @@
         "3142": {
             "id": 3142,
             "name": "Youmuu's Ghostblade",
-            "description": "<stats>+65 Attack Damage<br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> +20 <a href='FlatArmorPen'>Armor Penetration</a><br><active>UNIQUE Active:</active> Grants +20% Movement Speed and +40% Attack Speed for 6 seconds (45 second cooldown).",
+            "description": "<stats>+60 Attack Damage<br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> +20 <a href='FlatArmorPen'>Armor Penetration</a><br><active>UNIQUE Active:</active> Grants +20% Movement Speed and +40% Attack Speed for 6 seconds (45 second cooldown).",
             "plaintext": "Activate to greatly increase Movement Speed and Attack Speed",
             "image": {
                 "full": "3142.png",
@@ -2617,9 +2619,10 @@
         },
         "3184": {
             "id": 3184,
-            "name": "Entropy",
-            "description": "<stats>+275 Health<br>+55 Attack Damage</stats><br><br><unique>UNIQUE Passive - Rage:</unique> Basic attacks grant 20 Movement Speed for 2 seconds on hit. Kills grant 60 Movement Speed for 2 seconds. This Movement Speed bonus is halved for ranged champions.<br><active>UNIQUE Active:</active> For the next 5 seconds, basic attacks reduce the target's Movement Speed by 30% and deal 80 true damage over 2.5 seconds on hit (60 second cooldown).",
-            "plaintext": "Attacks and kills give a small burst of speed, activate to slow enemies",
+            "name": "Guardian's Hammer",
+            "group": "GuardianItems",
+            "description": "<stats>+150 Health<br>+15 Attack Damage<br>+10% Life Steal</stats><br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
+            "plaintext": "Good starting item for attackers",
             "image": {
                 "full": "3184.png",
                 "sprite": "item1.png",
@@ -2754,7 +2757,7 @@
             "id": 3211,
             "name": "Spectre's Cowl",
             "description": "<stats>+250 Health<br>+30 Magic Resist</stats><br><br><unique>UNIQUE Passive:</unique> Grants 150% Base Health Regen for up to 10 seconds after taking damage from an enemy champion.",
-            "plaintext": "Improves defense and grants regeneration upon being damage",
+            "plaintext": "Improves defense and grants regeneration upon being damaged",
             "image": {
                 "full": "3211.png",
                 "sprite": "item1.png",
@@ -3051,7 +3054,7 @@
         "3508": {
             "id": 3508,
             "name": "Essence Reaver",
-            "description": "<stats>+65 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction.<br><unique>UNIQUE Passive:</unique> Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
+            "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction.<br><unique>UNIQUE Passive:</unique> Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
             "plaintext": "Critical Strike provides Cooldown Reduction and Mana",
             "image": {
                 "full": "3508.png",
@@ -3246,7 +3249,7 @@
         "3800": {
             "id": 3800,
             "name": "Righteous Glory",
-            "description": "<stats>+500 Health<br><mana>+300 Mana</mana><br>+100% Base Health Regen </stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 25% of the cost as Health, up to 25 per spell cast.  <br><unique>UNIQUE Active:</unique> Grants +75% Movement Speed when moving towards enemies or enemy turrets for 4 seconds. After 3 seconds, a shockwave is emitted, slowing nearby enemy champion Movement Speed by 75% for 2 second(s) (90 second cooldown).<br><br>This effect may be reactivated early to instantly release the shockwave.",
+            "description": "<stats>+500 Health<br><mana>+300 Mana</mana><br>+100% Base Health Regen </stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.  <br><unique>UNIQUE Active:</unique> Grants +75% Movement Speed when moving towards enemies or enemy turrets for 4 seconds. After 3 seconds, a shockwave is emitted, slowing nearby enemy champion Movement Speed by 75% for 2 second(s) (90 second cooldown).<br><br>This effect may be reactivated early to instantly release the shockwave.",
             "plaintext": "Grants Health, Mana. Activate to speed towards enemies and slow them.",
             "image": {
                 "full": "3800.png",

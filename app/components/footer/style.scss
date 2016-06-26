@@ -6,13 +6,21 @@
 	right: 0;
 	bottom: 0;
 	width: 100%;
+	height: 2em;
 	background: $deep-purple;
 
 	.content {
-		display: flex;
-		flex-direction: row-reverse;
-		justify-content: space-between;
-		padding: 0.5em;
+		.status {
+			position: absolute;
+			top: 0.5em;
+			right: 0.5em;
+		}
+
+		.recording {
+			position: absolute;
+			top: 0.5em;
+			left: 45%;
+		}
 	}
 
 	.separator {

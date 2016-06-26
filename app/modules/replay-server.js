@@ -7,16 +7,14 @@ const webServer = "127.0.0.1";
 
 let server = null;
 let address = null;
-let replay = null;
+let meta = null;
 let data = null;
 let chunkId = 1;
 
-class ReplayServer {
-    constructor() {}
-
-    start(callback) {
+export default {
+    start: function(callback) {
         server = http.createServer((request, response) => {
-            if (!replay) {
+            if (!meta) {
                 response.status(500).end();
                 return;
             }
@@ -24,6 +22,7 @@ class ReplayServer {
             console.log(request.url);
 
             if (request.url.indexOf("/observer-mode/rest/consumer/version") > -1) {
+                chunkId = 1;
                 response.end("1.82.102");
             } else if (request.url.indexOf("/observer-mode/rest/consumer/getGameMetaData/") > -1) {
                 response.end("{\"gameKey\":{\"gameId\":0,\"platformId\":\"aof\"},\"gameServerAddress\":\"\",\"port\":0,\"" +
@@ -33,11 +32,11 @@ class ReplayServer {
                     "featuredGame\":false,\"createTime\":\"???\",\"endGameChunkId\":-1,\"endGameKeyFrameId\":-1}");
             } else if (request.url.indexOf("/observer-mode/rest/consumer/getLastChunkInfo/") > -1) {
                 let info = lastChunkInfo.replace("$cid", chunkId);
-                info = info.replace("$kid", Math.floor((Math.max(Math.floor((chunkId - replay.startGameChunkId) / 2) + 1, 0))));
-                info = info.replace("$nac", chunkId == replay.endStartupChunkId ? "30000" : "5");
-                info = info.replace("$endStartupChunkId", replay.endStartupChunkId);
-                info = info.replace("$startGameChunkId", replay.startGameChunkId);
-                info = info.replace("$endGameChunkId", replay.endGameChunkId);
+                info = info.replace("$kid", Math.floor((Math.max(Math.floor((chunkId - meta.startGameChunkId) / 2) + 1, 0))));
+                info = info.replace("$nac", chunkId == meta.endStartupChunkId ? "30000" : "5");
+                info = info.replace("$endStartupChunkId", meta.endStartupChunkId);
+                info = info.replace("$startGameChunkId", meta.startGameChunkId);
+                info = info.replace("$endGameChunkId", meta.endGameChunkId);
                 response.end(info);
             } else if (request.url.indexOf("/observer-mode/rest/consumer/getGameDataChunk/") > -1) {
                 let regex = /getGameDataChunk\/([a-zA-Z0-9]+)\/([0-9]+)\/([0-9]+)\/token/g;
@@ -72,29 +71,22 @@ class ReplayServer {
             address = server.address();
             if (typeof callback === "function") callback(address.address, address.port);
         });
-    }
+    },
 
     get host() {
         if (!address) return null;
         return address.address;
-    }
+    },
     get port() {
         if (!address) return null;
         return address.port;
-    }
+    },
 
-    load(replayMetadata, replayData) {
+    load: function(replayMetadata, replayData) {
         if (!server) return null;
-        replay = replayMetadata;
+        meta = replayMetadata;
         data = replayData;
-        this.reset();
-        return true;
-    }
-
-    reset() {
-        if (!server || !replay) return;
         chunkId = 1;
-    }
-}
-
-export default new ReplayServer();
+        return true;
+    },
+};

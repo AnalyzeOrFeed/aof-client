@@ -85,21 +85,21 @@ let checkPath = (basePath, callback) => {
 	});
 };
 
-class LolClient {
+let self = {
 	get leaguePath() {
 		return leaguePath;
-	}
+	},
+
 	get isFound() {
 		return leaguePath !== null;
-	}
+	},
+
 	get version() {
 		return leagueVersion;
-	}
-
-	constructor() {}
+	},
 
 	// Try and find the league client
-	find(callback) {
+	find: function(callback) {
 		basePath = null;
 		leaguePath = null;
 		leagueVersion = null;
@@ -162,10 +162,10 @@ class LolClient {
 				});
 			});
 		}
-	}
+	},
 
 	// Extract the league of legends path from the user selected path
-	setPath(file, callback) {
+	setPath: function(file, callback) {
 		file = file.replace(/\\/g, "/");
 		let path = null;
 
@@ -191,10 +191,10 @@ class LolClient {
 				}
 			});
 		}
-	}
+	},
 
 	// Run the League of Legends client and tell it to spectate the specified endpoint
-	launch(host, port, replayRegion, replayGameId, replayKey, callback) {
+	launch: function(host, port, replayRegion, replayGameId, replayKey, callback) {
 		// Check if the client is already running
 		if (running) {
 			callback(false);
@@ -248,7 +248,7 @@ class LolClient {
 				client.on("close", cb);
 			}
 		});
-	}
+	},
 }
 
-export default new LolClient();
+export default self;

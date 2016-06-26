@@ -38,6 +38,7 @@ export default {
 	        "components": path.resolve(__dirname, "app/components"),
 	        "modules": path.resolve(__dirname, "app/modules"),
 	        "assets": path.resolve(__dirname, "app/assets"),
+	        "stores": path.resolve(__dirname, "app/stores"),
 	    }
 	},
 	plugins: [
