@@ -1,18 +1,20 @@
-'use strict';
+import webpack from "webpack";
+import builder from "electron-builder";
 
-const builder = require("electron-builder");
+import configMain from "./webpack.dist.main.config";
+import configRenderer from "./webpack.dist.renderer.config";
 
-// Promise is returned
-builder.build({
-        platform: [builder.Platform.OSX],
-            "//": "platform, arch and other properties, see PackagerOptions in the node_modules/electron-builder/out/electron-builder.d.ts",
-        devMetadata: {
-            "//": "build and other properties, see https://goo.gl/5jVxoO"
-        }
-    })
-    .then(() => {
-        // handle result
-    })
-    .catch((error) => {
-        // handle error
-    });
+const compilerMain = webpack(configMain);
+const compilerRenderer = webpack(configRenderer);
+
+compilerMain.run(function(err, stats) {
+	console.log(stats.toString({ colors: true }));
+
+	compilerRenderer.run(function(err, stats) {
+		console.log(stats.toString({ colors: true }));
+
+		builder.build().catch((error) => {
+			console.log(error);
+		});
+	});
+});

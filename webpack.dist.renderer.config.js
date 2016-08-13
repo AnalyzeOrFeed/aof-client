@@ -4,17 +4,15 @@ import CopyWebpackPlugin from "copy-webpack-plugin";
 
 export default {
 	target: "electron-renderer",
-	debug: true,
-	devtool: "cheap-module-source-map",
-	entry: [
-		path.join(__dirname, "app/index"),
-		"webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr"
-	],
+	entry: path.join(__dirname, "app/index"),
 	module: {
 		loaders: [{
 			test: /\.jsx?$/,
 			loader: "babel",
-			exclude: /node_modules/
+			exclude: /node_modules/,
+			query: {
+				"presets": ["electron", "react"],
+			}
 		}, {
 			test: /\.scss$/,
 			loader: "style!css!sass"
@@ -27,26 +25,23 @@ export default {
 		}]
 	},
 	output: {
-		path: path.join(__dirname, "dist"),
-		publicPath: "http://localhost:3000/dist/",
-		filename: "bundle.js",
+		path: path.join(__dirname, "temp"),
+		filename: "app.js",
 		libraryTarget: "commonjs2"
 	},
 	resolve: {
 		extensions: ["", ".js", ".jsx"],
 		alias: {
 	        "components": path.resolve(__dirname, "app/components"),
-	        "modules": path.resolve(__dirname, "app/modules"),
 	        "assets": path.resolve(__dirname, "app/assets"),
 	        "stores": path.resolve(__dirname, "app/stores"),
 	    }
 	},
 	plugins: [
-		new webpack.optimize.OccurenceOrderPlugin(),
-	    new webpack.HotModuleReplacementPlugin(),
-	    new webpack.NoErrorsPlugin(),
 	    new CopyWebpackPlugin([
-			{ from: "app/assets/" }
+			{ from: "app/assets/", to: "assets" },
+			{ from: "app/lib/", to: "lib" },
+			{ from: "app/index.html" },
 		])
 	]
 };
