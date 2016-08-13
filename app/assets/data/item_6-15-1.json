@@ -1,6 +1,6 @@
 {
     "type": "item",
-    "version": "6.12.1",
+    "version": "6.15.1",
     "basic": {
         "id": 0,
         "name": "",
@@ -757,7 +757,7 @@
             "id": 2010,
             "name": "Total Biscuit of Rejuvenation",
             "group": "HealthPotion",
-            "description": "<consumable>Click to Consume:</consumable> Restores 15 health and 15 mana immediately and then 150 Health over 15 seconds.",
+            "description": "<consumable>Click to Consume:</consumable> Restores 15 Health and 15 Mana immediately and then 150 Health over 15 seconds.",
             "image": {
                 "full": "2010.png",
                 "sprite": "item0.png",
@@ -850,7 +850,7 @@
         "2045": {
             "id": 2045,
             "name": "Ruby Sightstone",
-            "description": "<stats>+500 Health</stats><br><br><unique>UNIQUE Passive:</unique> Hextech and other Item Active cooldowns are reduced by 10%.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges and refills when visiting the shop.<br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
+            "description": "<stats>+500 Health</stats><br><br><unique>UNIQUE Passive:</unique> Item Active cooldowns are reduced by 20%.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges and refills when visiting the shop.<br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
             "plaintext": "Greatly increases Health and provides Stealth Wards over time",
             "image": {
                 "full": "2045.png",
@@ -865,8 +865,8 @@
         "2047": {
             "id": 2047,
             "name": "Oracle's Extract",
-            "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible units for 5 minutes.",
-            "plaintext": "Allows champion to see invisible units",
+            "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible or unseen enemy units for 5 minutes.",
+            "plaintext": "Allows champion to see invisible or unseen enemy units",
             "image": {
                 "full": "2047.png",
                 "sprite": "item0.png",
@@ -910,7 +910,7 @@
             "id": 2051,
             "name": "Guardian's Horn",
             "group": "GuardianItems",
-            "description": "<stats>+150 Health</stats><br><passive>Passive: </passive>Restores 20 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 12 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).<br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
+            "description": "<stats>+150 Health</stats><br><br><passive>Passive: </passive>Restores 20 Health every 5 seconds.<br><unique>UNIQUE Passive:</unique> Blocks 12 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).<br><br><groupLimit>Limited to 1 Guardian's Item.</groupLimit>",
             "plaintext": "Good starting item for tanks",
             "image": {
                 "full": "2051.png",
@@ -1051,7 +1051,7 @@
             "id": 2303,
             "name": "Eye of the Equinox",
             "group": "GoldBase",
-            "description": "<stats>+500 Health<br>+100% Base Health Regen <br>+2 Gold per 10 seconds</stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 400 Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
+            "description": "<stats>+500 Health<br>+100% Base Health Regen <br>+2 Gold per 10 seconds</stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 320 (+20 per level) Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.<br><active>UNIQUE Active - Warding:</active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward</font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules>(A player may only have 3 <font color='#BBFFFF'>Stealth Wards</font> on the map at one time. Unique Passives with the same name don't stack.)</rules>",
             "plaintext": "Provides Health and Stealth Wards over time",
             "image": {
                 "full": "2303.png",
@@ -1126,7 +1126,7 @@
         },
         "3007": {
             "id": 3007,
-            "name": "Archangel's Staff (Crystal Scar)",
+            "name": "Archangel's Staff (Quick Charge)",
             "description": "<stats>+80 Ability Power<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent. <br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +12 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Seraph's Embrace at +750 Mana.</mana>",
             "plaintext": "Increases Ability Power based on maximum Mana",
             "image": {
@@ -1141,7 +1141,7 @@
         },
         "3008": {
             "id": 3008,
-            "name": "Manamune (Crystal Scar)",
+            "name": "Manamune (Quick Charge)",
             "description": "<stats>+25 Attack Damage<br><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants +6 maximum Mana (max +750 Mana) for each basic attack, spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).<br><br>Transforms into Muramana at +750 Mana.</mana>",
             "plaintext": "Increases Attack Damage based on maximum Mana",
             "image": {
@@ -1293,7 +1293,7 @@
         },
         "3029": {
             "id": 3029,
-            "name": "Rod of Ages (Crystal Scar)",
+            "name": "Rod of Ages (Quick Charge)",
             "description": "<stats>+300 Health<br><mana>+300 Mana</mana><br>+60 Ability Power</stats><br><br><passive>Passive:</passive> Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per 40 seconds (max 10 stacks).<br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
             "plaintext": "Greatly increases Health, Mana, and Ability Power",
             "image": {
@@ -1652,7 +1652,7 @@
             "id": 3069,
             "name": "Talisman of Ascension",
             "group": "GoldBase",
-            "description": "<stats>+100% Base Health Regen <br><mana>+100% Base Mana Regen <br></mana>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.<br><active>UNIQUE Active:</active> Grants nearby allies +40% Movement Speed for 3 seconds (60 second cooldown).<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules><font color='#447777'>''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE</font></rules>",
+            "description": "<stats>+45 Armor<br>+150% Base Health Regen <br><mana>+75% Base Mana Regen <br></mana>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Point Runner:</unique> Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.<br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.<br><active>UNIQUE Active:</active> Grants nearby allies +40% Movement Speed for 3 seconds (60 second cooldown).<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules><font color='#447777'>''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE</font></rules>",
             "plaintext": "Increases Health / Mana Regeneration and Cooldown Reduction. Activate to speed up nearby allies.",
             "image": {
                 "full": "3069.png",
@@ -1711,7 +1711,7 @@
         },
         "3073": {
             "id": 3073,
-            "name": "Tear of the Goddess (Crystal Scar)",
+            "name": "Tear of the Goddess (Quick Charge)",
             "description": "<stats><mana>+250 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Refunds 15% of Mana spent.<br><unique>UNIQUE Passive - Mana Charge:</unique> Grants 6 maximum Mana on spell cast or Mana expenditure (up to 2 times per 8 seconds).<br><br>Caps at +750 Mana.</mana>",
             "plaintext": "Increases maximum Mana as Mana is spent",
             "image": {
@@ -1954,7 +1954,7 @@
             "id": 3096,
             "name": "Nomad's Medallion",
             "group": "GoldBase",
-            "description": "<stats>+50% Base Health Regen <br><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules><font color='#447777'>''The medallion shines with the glory of a thousand voices when exposed to the sun.'' - Historian Shurelya, 22 June, 24 CLE</font></rules>",
+            "description": "<stats>+25% Base Health Regen <br><mana>+75% Base Mana Regen </mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><rules><font color='#447777'>''The medallion shines with the glory of a thousand voices when exposed to the sun.'' - Historian Shurelya, 22 June, 24 CLE</font></rules>",
             "plaintext": "Grants gold when nearby enemy minions die, Health Regen and Mana Regen",
             "image": {
                 "full": "3096.png",
@@ -1970,7 +1970,7 @@
             "id": 3097,
             "name": "Targon's Brace",
             "group": "GoldBase",
-            "description": "<stats>+175 Health<br>+50% Base Health Regen <br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 240 Health. Killing a minion heals the owner and the nearest allied champion for 40 Health and grants them kill Gold.<br><br>These effects require a nearby ally. Recharges every 30 seconds. Max 3 charges.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
+            "description": "<stats>+175 Health<br>+50% Base Health Regen <br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 200 (+10 per level) Health. Killing a minion heals the owner and the nearest allied champion for 40 Health and grants them kill Gold.<br><br>These effects require a nearby ally. Recharges every 30 seconds. Max 3 charges.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
             "plaintext": "Periodically kill enemy minions to heal and grant gold to a nearby ally",
             "image": {
                 "full": "3097.png",
@@ -2046,8 +2046,8 @@
         "3104": {
             "id": 3104,
             "name": "Lord Van Damm's Pillager",
-            "description": "<stats>+65 Attack Damage<br>+30% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical Strikes cause enemies to bleed for an additional 150% of bonus Attack Damage as magic damage over 3 seconds and reveal them for the duration.",
-            "plaintext": "Massively enhances critical strikes",
+            "description": "<stats>+300 Health<br>+50 Attack Damage<br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Ashes to Ashes:</unique> Controlling the nearest Altar sets you aflame, dealing 25 (+1 per champion level) magic damage per second to nearby enemies (Deals 50% bonus damage to minions and monsters). Controlling the furthest Altar causes your basic attacks to burn targets for up to 114 true damage (based on champion level) over 3 seconds.",
+            "plaintext": "Reduces Armor of nearby enemies",
             "image": {
                 "full": "3104.png",
                 "sprite": "item1.png",
@@ -2153,7 +2153,7 @@
         "3114": {
             "id": 3114,
             "name": "Forbidden Idol",
-            "description": "<stats><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction",
+            "description": "<stats><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive:</unique> +10% Heal and Shield Power",
             "plaintext": "Increases Mana Regeneration and Cooldown Reduction",
             "image": {
                 "full": "3114.png",
@@ -2409,7 +2409,7 @@
         "3145": {
             "id": 3145,
             "name": "Hextech Revolver",
-            "description": "<stats>+40 Ability Power</stats><br><br><unique>UNIQUE Passive - Magic Bolt:</unique> Damaging an enemy champion with a basic attack shocks them for <levelScale>75 - 150</levelScale> bonus magic damage (40 second cooldown, shared with other <font color='#9999FF'><a href='itembolt'>Hextech</a></font> items).<br><br><rules>(Damage scales based on level. Hextech effects can trigger other item spell effects.)</rules>",
+            "description": "<stats>+40 Ability Power</stats><br><br><unique>UNIQUE Passive - Magic Bolt:</unique> Damaging an enemy champion with a basic attack shocks them for <levelScale>75 - 150</levelScale> bonus magic damage (40 second cooldown, shared with other <font color='#9999FF'><a href='itembolt'>Hextech</a></font> items).<br><br>Magic Bolt's cooldown is reduced by Active Item cooldown reduction.<br><br><rules>(Damage scales based on level. Hextech effects can trigger other item spell effects.)</rules>",
             "plaintext": "Increases Ability Power. Deal bonus magic damage on attack periodically.",
             "image": {
                 "full": "3145.png",
@@ -2666,7 +2666,7 @@
         "3190": {
             "id": 3190,
             "name": "Locket of the Iron Solari",
-            "description": "<stats>+400 Health<br>+100% Base Health Regen <br>+20 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><active>UNIQUE Active:</active> Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown).<br><aura>UNIQUE Aura - Legion:</aura> Grants nearby allies +15 Magic Resist.",
+            "description": "<stats>+400 Health<br>+100% Base Health Regen <br>+20 Magic Resist<br>+10% Cooldown Reduction</stats><br><br><active>UNIQUE Active:</active> Grants a shield to nearby allies for 2 seconds that absorbs up to 75 (+15 per level) damage (60 second cooldown). This shielding is halved for units recently shielded this way.<br><aura>UNIQUE Aura - Legion:</aura> Grants nearby allies +15 Magic Resist.",
             "plaintext": "Activate to shield nearby allies from damage",
             "image": {
                 "full": "3190.png",
@@ -2771,7 +2771,7 @@
         "3222": {
             "id": 3222,
             "name": "Mikael's Crucible",
-            "description": "<stats>+35 Magic Resist<br>+10% Cooldown Reduction<br><mana>+150% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> Increases Base Health Regeneration by 100% if current Health % is lower than current Mana %. <mana>Increases Base Mana Regeneration by 100% if current Mana % is lower than current Health %.</mana><br><active>UNIQUE Active:</active> Removes all stuns, roots, taunts, fears, silences, and slows on an allied champion and heals that champion for 150 (+10% of maximum Health) (180 second cooldown).",
+            "description": "<stats>+35 Magic Resist<br>+10% Cooldown Reduction<br><mana>+150% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +15% Heal and Shield Power<br><unique>UNIQUE Passive:</unique> Increases Base Health Regeneration by 100% if current Health % is lower than current Mana %. <mana>Increases Base Mana Regeneration by 100% if current Mana % is lower than current Health %.</mana><br><active>UNIQUE Active:</active> Removes all stuns, roots, taunts, fears, silences, and slows on an allied champion and heals that champion for 150 (+10% of maximum Health) (180 second cooldown).",
             "plaintext": "Activate to heal and remove all disabling effects from an allied champion",
             "image": {
                 "full": "3222.png",
@@ -2802,7 +2802,7 @@
             "id": 3301,
             "name": "Ancient Coin",
             "group": "GoldBase",
-            "description": "<stats><mana>+25% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 4 Gold and 5 Health.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><i><font color='#447777'>''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE</font></i>",
+            "description": "<stats><mana>+25% Base Mana Regen </mana><br>+5% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Favor:</unique> Being near a minion's death without dealing the killing blow grants 4 Gold and 5 Health.<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit><br><br><i><font color='#447777'>''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE</font></i>",
             "plaintext": "Grants gold when nearby minions die that you didn't kill",
             "image": {
                 "full": "3301.png",
@@ -2818,7 +2818,7 @@
             "id": 3302,
             "name": "Relic Shield",
             "group": "GoldBase",
-            "description": "<stats>+75 Health<br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 200 Health. Killing a minion heals the owner and the nearest allied champion for 20 Health and grants them kill Gold.<br><br>These effects require a nearby ally. Recharges every 40 seconds. Max 2 charges. <br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
+            "description": "<stats>+75 Health<br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 195 (+5 per level) Health. Killing a minion heals the owner and the nearest allied champion for 20 Health and grants them kill Gold.<br><br>These effects require a nearby ally. Recharges every 40 seconds. Max 2 charges. <br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
             "plaintext": "Kill minions periodically to heal and grant gold to a nearby ally",
             "image": {
                 "full": "3302.png",
@@ -2978,7 +2978,7 @@
             "id": 3401,
             "name": "Face of the Mountain",
             "group": "GoldBase",
-            "description": "<stats>+450 Health<br>+100% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 400 Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.<br><unique>UNIQUE Active:</unique> Grant a shield to an ally equal to 10% of your maximum Health for 4 seconds. After 4 seconds, the shield explodes to slow nearby enemies by 40% for 2 seconds (60 second cooldown).<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
+            "description": "<stats>+450 Health<br>+100% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds </stats><br><br><unique>UNIQUE Passive - Spoils of War:</unique> Melee basic attacks execute minions below 320 (+20 per level) Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.<br><unique>UNIQUE Active:</unique> Grant a shield to an ally equal to 10% of your maximum Health for 4 seconds. After 4 seconds, the shield explodes to slow nearby enemies by 40% for 2 seconds (60 second cooldown).<br><br><groupLimit>Limited to 1 Gold Income Item.</groupLimit>",
             "plaintext": "Shield an ally from damage based on your Health",
             "image": {
                 "full": "3401.png",
@@ -3039,7 +3039,7 @@
         "3504": {
             "id": 3504,
             "name": "Ardent Censer",
-            "description": "<stats>+40 Ability Power<br>+10% Cooldown Reduction<br><mana>+100% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +8% Movement Speed<br><unique>UNIQUE Passive:</unique> Your heals and shields on another allied champion grant them 15% Attack Speed and 30 magic damage on-hit for 6 seconds.<br><br><rules>(This does not include regeneration effects or effects on yourself.)</rules>",
+            "description": "<stats>+60 Ability Power<br>+10% Cooldown Reduction<br><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +15% Heal and Shield Power<br><unique>UNIQUE Passive:</unique> +8% Movement Speed<br><unique>UNIQUE Passive:</unique> Your heals and shields on another allied champion grant them 15% Attack Speed and 30 magic damage on-hit for 6 seconds.<br><br><rules>(This does not include regeneration effects or effects on yourself.)</rules>",
             "plaintext": "Shield and heal effects on other units grant them Attack Speed and bonus damage briefly",
             "image": {
                 "full": "3504.png",
@@ -3054,7 +3054,7 @@
         "3508": {
             "id": 3508,
             "name": "Essence Reaver",
-            "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction.<br><unique>UNIQUE Passive:</unique> Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
+            "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive:</unique> Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
             "plaintext": "Critical Strike provides Cooldown Reduction and Mana",
             "image": {
                 "full": "3508.png",
@@ -3093,6 +3093,247 @@
                 "group": "item",
                 "x": 240,
                 "y": 0,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3630": {
+            "id": 3630,
+            "name": "Siege Teleport",
+            "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform.",
+            "image": {
+                "full": "3630.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 336,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3631": {
+            "id": 3631,
+            "name": "Siege Ballista",
+            "group": "SiegeSniperCannonGroup",
+            "description": "<br><font color='#FF9900'>Deploys a ballista that shoots the closest turret.</font><br><br>Places a long range ballista if within 2200 range of an enemy turret. After an 5 second delay, it will begin firing at the nearest enemy turret, dealing heavy damage. If the targeted turret expires, the ballista will as well.",
+            "plaintext": "Place a long range anti-turret ballista",
+            "image": {
+                "full": "3631.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 384,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3632": {
+            "id": 3632,
+            "image": {
+                "full": "3632.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 432,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3633": {
+            "id": 3633,
+            "name": "Siege Teleport",
+            "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform.",
+            "image": {
+                "full": "3633.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 0,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3634": {
+            "id": 3634,
+            "name": "Tower: Beam of Ruination",
+            "group": "SiegeLaserAffixGroup",
+            "description": "<br><font color='#FF9900'>Attach, then recast to fire a damaging beam from a turret to your cursor.</font><br><br><font color='#FF9900'>First Cast:</font> Attach a Slayer Beam to the target turret that can be fired 3 times.<br></br><font color='#FF9900'>Next Three Casts:</font> Fires the attached beam towards your cursor, dealing 30/level + 30% of the hit target's maximum health (20% damage to minions) in magic damage to all targets in a line.<br></br><br></br>Beam will last 15 seconds, or until it has been fired 3 times.",
+            "plaintext": "Attaches a three shot beam to a turret which can then be aimed and fired",
+            "image": {
+                "full": "3634.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 48,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3635": {
+            "id": 3635,
+            "name": "Port Pad",
+            "group": "SiegeTeleportPadGroup",
+            "description": "<br><font color='#FF9900'>Deploy an additional teleport target.</font><br><br>Places a Port Pad at target location. After a 4 second delay, it activates, allowing you or your allies to teleport to it from base.",
+            "plaintext": "Creates another point for your team to Teleport to",
+            "image": {
+                "full": "3635.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 96,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3636": {
+            "id": 3636,
+            "name": "Tower: Storm Bulwark",
+            "group": "SiegeEmergencyShieldGroup",
+            "description": "<br><font color='#FF9900'>Makes a turret go invulnerable, then rain fire.</font><br><br>Makes the target turret invulnerable for 6 seconds. Two seconds before expiry, it unleashes a missile volley, dealing 650 true damage over the remaining time to all nearby enemies.<br><br>Cannot be used on the same turret more than once in 15 seconds",
+            "plaintext": "Make a turret go invulnerable while charging a powerful barrage",
+            "image": {
+                "full": "3636.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 144,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3637": {
+            "id": 3637,
+            "name": "Nexus Siege: Siege Weapon Slot",
+            "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!",
+            "image": {
+                "full": "3637.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 192,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3640": {
+            "id": 3640,
+            "name": "Flash Zone",
+            "group": "SiegeFlashZoneGroup",
+            "description": "<br><font color='#FF9900'>Allows team to cast Flash repeatedly in a limited zone.</font><br><br>Creates a magic zone for your team for 5 seconds. While in this zone, you and your allies have your summoner spells replaced by an instant cast blink that moves you to any location in the zone (1 second cooldown)",
+            "plaintext": "Allows you and allies to repeatedly flash while in a zone",
+            "image": {
+                "full": "3640.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 240,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3641": {
+            "id": 3641,
+            "name": "Vanguard Banner",
+            "group": "SiegePortableBarracksGroup",
+            "description": "<br><font color='#FF9900'>Place a banner that buffs minions.</font><br><br>Place a Vanguard Banner at target location. After an 2 second delay, any nearby minions will be granted a buff, increasing their damage by 50%, and granting them 50 Armor and 100 Magic Resistance while within range.",
+            "plaintext": "Strengthens nearby minions",
+            "image": {
+                "full": "3641.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 288,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3642": {
+            "id": 3642,
+            "name": "Siege Refund",
+            "group": "SiegeRefundGroup",
+            "description": "Refunds all purchased Siege Weapons for their full price.",
+            "plaintext": "Refunds all current Siege Weapons",
+            "image": {
+                "full": "3642.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 336,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3643": {
+            "id": 3643,
+            "name": "Entropy Field",
+            "group": "SiegeTimefieldGroup",
+            "description": "<br><font color='#FF9900'>Stun minions and slow champions in an area.</font><br><br>Places an Entropy Field at target location for 5 seconds.  Enemy minions and Siege Ballistas trapped in the field are unable to move or attack while in the field.  Enemy champions in the field have their Movement Speed reduced by 25%.",
+            "plaintext": "Places a field that stuns enemy minions and slows champions",
+            "image": {
+                "full": "3643.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 384,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3645": {
+            "id": 3645,
+            "name": "Seer Stone (Trinket)",
+            "group": "RelicBase",
+            "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Reveals a small area within <font color='#FFFFF'>1400</font> range for 3 seconds. Enemy champions will be revealed for 5 seconds (60 second cooldown)",
+            "plaintext": "Briefly reveals a nearby targeted area",
+            "image": {
+                "full": "3645.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 432,
+                "y": 144,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3647": {
+            "id": 3647,
+            "name": "Shield Totem",
+            "group": "SiegeShieldGeneratorGroup",
+            "description": "<br><font color='#FF9900'>Place a totem that shields nearby deployables.</font><br><br>Places a Shield Totem at target location. After a 2 second delay, the totem will activate, granting a 2 (+1 per additional Shield Totem) strength shield to all nearby deployables.",
+            "plaintext": "Grants bonus health to nearby Siege Weapons",
+            "image": {
+                "full": "3647.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 0,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3648": {
+            "id": 3648,
+            "name": "Siege Teleport (Inactive)",
+            "image": {
+                "full": "3648.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 48,
+                "y": 192,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "3649": {
+            "id": 3649,
+            "name": "Siege Sight Warder",
+            "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Places a <font color='#FFFFFF'>Stealth Ward</font> that lasts <font color='#FFFFFF'>30</font> seconds (30 second cooldown).",
+            "image": {
+                "full": "3649.png",
+                "sprite": "item2.png",
+                "group": "item",
+                "x": 96,
+                "y": 192,
                 "w": 48,
                 "h": 48
             }
