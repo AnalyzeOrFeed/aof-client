@@ -5,7 +5,8 @@
 import { app, BrowserWindow, ipcMain as ipc, dialog } from "electron";
 import fs from "fs";
 import _ from "lodash";
-import raven from "raven";
+
+//import raven from "raven";
 import request from "request";
 import mkdirp from "mkdirp";
 import parser from "aof-file-parser";
@@ -28,7 +29,7 @@ mkdirp.sync(global.paths.replays);
 
 // Raven
 // =============================================================================
-let ravenClient = new raven.Client("http://71524752dc5f48a78a5d23142c8ee5a9@sentry.aof.gg/6");
+//let ravenClient = new raven.Client("http://71524752dc5f48a78a5d23142c8ee5a9@sentry.aof.gg/6");
 //ravenClient.patchGlobal(() => process.exit(1));
 
 
@@ -37,6 +38,7 @@ let ravenClient = new raven.Client("http://71524752dc5f48a78a5d23142c8ee5a9@sent
 console.log("--- SYSTEM INFORMATION ---");
 console.log(process.platform + "-" + process.arch);
 console.log(JSON.stringify(global.paths, null, 2));
+console.log(JSON.stringify(process.argv, null, 2));
 console.log(JSON.stringify(process.versions, null, 2));
 console.log("--- END SYSTEM INFORMATION ---")
 
@@ -113,7 +115,7 @@ ipc.on("watch", (event, arg) => {
 // =============================================================================
 app.on("ready", () => {
 	mainWindow = new BrowserWindow({
-		width: 1600,
+		width: global.dev ? 1600 : 1200,
 		height: 800,
 		toolbar: false,
 		"min-width": 800,
@@ -126,7 +128,7 @@ app.on("ready", () => {
 		mainWindow = null;
 	});
 
-	if (process.env.NODE_ENV === "development") {
+	if (global.dev) {
 		mainWindow.openDevTools();
 	}
 

@@ -10,23 +10,24 @@ import request from "request";
 
 // Globals
 // =============================================================================
+global.dev = process.env.NODE_ENV === "development";
 global.paths = {
 	data: app.getPath("userData"),
 	cache: app.getPath("userData") + "/cache/",
 	replays: app.getPath("documents") + "/Analyze or Feed/Replays/",
 };
 global.api = {
-	baseUrl: "https://api.aof.gg/v2/",
-	ddragonBase: "https://ddragon.leagueoflegends.com/cdn/6.12.1/img/",
+	baseUrl: "https://api.aof.gg/v3/",
+	ddragonBase: "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/",
 	token: null,
-	data: require("../assets/data/meta_6-12-1.json"),
+	data: require("../assets/data/meta_6-15-1.json"),
 };
 global.app = {
 	playingReplay: false,
 };
 global.replays = {
 	add: replay => {
-		files.unshift(replay);
+		global.replays.files.unshift(replay);
 		global.replays.save();
 		ipc.emit("global-replays");
 	},

@@ -95,6 +95,8 @@ module.exports = React.createClass({
 			} else {
 				this.setState({ response: "Not ingame" });
 			}
+
+			this.forceUpdate();
 		});
 	},
 	handleOpen: function() {

@@ -217,7 +217,8 @@ let self = {
 			"8394", 
 			"LoLLauncher.exe", 
 			"", 
-			"replay " + host + ":" + port + " " + replayKey + " " + replayGameId + " " + replayRegion
+			"replay " + host + ":" + port + " " + replayKey + " " + replayGameId + " " + replayRegion + " ",
+			"-UseRads"
 		];
 		console.log(args);
 		

@@ -13,15 +13,13 @@ import Button from "aof-react-components/button";
 import Spinner from "aof-react-components/spinner";
 
 module.exports = React.createClass({
-	globalReplays: { files: [] },
 	componentWillMount: function() {
 		require("./style.scss");
 	},
 	componentDidMount: function() {
 		if (ApiStore.loggedIn) this.getMyData();
-
-		this.globalReplays = remote.getGlobal("replays");
-		ipc.on("global-replays", () => this.forceUpdate());
+		ipc.on("global-replays", () => this.updateLocalReplays());
+		this.updateLocalReplays();
 	},
 	componentWillUnmount: function() {
 	},
@@ -31,7 +29,15 @@ module.exports = React.createClass({
 			email: "",
 			password: "",
 			games: null,
+			localReplays: [],
 		};
+	},
+	updateLocalReplays: function() {
+		let replays = remote.getGlobal("replays").files;
+		this.setState({
+			localReplays: _.map(replays, r => ApiStore.prepareGame(r)),
+		});
+		this.forceUpdate();
 	},
 	handleChange: function(event) {
 		this.setState({ [event.target.name]: event.target.value });
@@ -109,7 +115,7 @@ module.exports = React.createClass({
                 </div>
                 <div className="row">
                 	<h2>Local Recording</h2>
-                	{ this.globalReplays.files.map(game => 
+                	{ this.state.localReplays.map(game => 
                 		<Game game={ game } key={ game.id } onWatch={ this.handleWatch } showTotals={ false } />)
                 	}
                 </div>

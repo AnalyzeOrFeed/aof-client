@@ -58,8 +58,14 @@ let self = {
 	                return;
 	            }
 
-	            let game = _.find(body, item => item.gameId != null ).game;
+	            let sum = _.find(body, item => item.gameId != null );
+	            if (!sum) {
+					emitter.emit("recordingStatus", "Match started, waiting for info...");
+					leagueChecking = false;
+					return;
+	            }
 
+	            let game = sum.game;
 	            if (!game) {
 					emitter.emit("recordingStatus", "Match started, waiting for info...");
 					leagueChecking = false;
@@ -68,7 +74,7 @@ let self = {
 
 	            game.region = _.find(global.api.data.regions, { id: game.regionId });
 	            game.version = _.find(global.api.data.versions, { id: game.versionId });
-	            if (!game.version) game.version = global.api.data.newestVersion.riotVersion;
+	            if (!game.version) game.version = global.api.data.newestVersion;
 	           	game.state = 1;
 				game.metaErrors = 0;
 				game.key = game.regionId + "-" + game.id;
@@ -304,7 +310,7 @@ let self = {
 		buff.writeUInt8(12, c);                                 c += 1;
 		
 		// Extract bytes for riot version
-		let splits = game.version.split(".");
+		let splits = game.version.riotVersion.split(".");
 		
 		console.log("Writing basic game info for " + game.key);
 		

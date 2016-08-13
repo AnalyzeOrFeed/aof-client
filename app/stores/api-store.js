@@ -7,17 +7,17 @@ import { remote } from "electron";
 let globals = remote.getGlobal("api");
 let data = globals.data;
 
-let champions = require("../assets/data/champion_6-12-1.json").data;
+let champions = require("../assets/data/champion_6-15-1.json").data;
 _.each(champions, (champ) => {
     champ.image = globals.ddragonBase + "champion/" + champ.image.full;
 });
 
-let spells = require("../assets/data/spell_6-12-1.json").data;
+let spells = require("../assets/data/spell_6-15-1.json").data;
 _.each(spells, (spell) => {
     spell.image = globals.ddragonBase + "spell/" + spell.image.full;
 });
 
-let items = require("../assets/data/item_6-12-1.json").data;
+let items = require("../assets/data/item_6-15-1.json").data;
 _.each(items, (item) => {
     item.image = globals.ddragonBase + "item/" + item.image.full;
 });
@@ -83,6 +83,7 @@ let self = {
                 return;
             }
 
+            if (body.game) body.game = self.prepareGame(body.game);
             callback(body);
         });
     },
