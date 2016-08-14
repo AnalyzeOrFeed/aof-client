@@ -1,6 +1,6 @@
 {
     "type": "champion",
-    "version": "6.15.1",
+    "version": "6.16.2",
     "data": {
         "Jax": {
             "id": 24,
@@ -1393,6 +1393,21 @@
                 "group": "champion",
                 "x": 384,
                 "y": 0,
+                "w": 48,
+                "h": 48
+            }
+        },
+        "Kled": {
+            "id": 240,
+            "key": "Kled",
+            "name": "Kled",
+            "title": "the Cantankerous Cavalier",
+            "image": {
+                "full": "Kled.png",
+                "sprite": "champion4.png",
+                "group": "champion",
+                "x": 48,
+                "y": 48,
                 "w": 48,
                 "h": 48
             }

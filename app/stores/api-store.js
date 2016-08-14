@@ -5,19 +5,23 @@ import _       from "lodash";
 import { remote } from "electron";
 
 let globals = remote.getGlobal("api");
+let settings = remote.getGlobal("settings");
+let setGlobal = remote.getGlobal("set");
 let data = globals.data;
 
-let champions = require("../assets/data/champion_6-15-1.json").data;
+if (settings.apiToken) globals.token = settings.apiToken;
+
+let champions = require("../assets/data/champion_6-16-2.json").data;
 _.each(champions, (champ) => {
     champ.image = globals.ddragonBase + "champion/" + champ.image.full;
 });
 
-let spells = require("../assets/data/spell_6-15-1.json").data;
+let spells = require("../assets/data/spell_6-16-2.json").data;
 _.each(spells, (spell) => {
     spell.image = globals.ddragonBase + "spell/" + spell.image.full;
 });
 
-let items = require("../assets/data/item_6-15-1.json").data;
+let items = require("../assets/data/item_6-16-2.json").data;
 _.each(items, (item) => {
     item.image = globals.ddragonBase + "item/" + item.image.full;
 });
@@ -35,7 +39,10 @@ let self = {
                 return;
             }
             
-            globals.token = body.token;
+            setGlobal("api.token", body.token);
+            setGlobal("settings.apiToken", body.token);
+            settings.save();
+
             callback(true);
         });
     },

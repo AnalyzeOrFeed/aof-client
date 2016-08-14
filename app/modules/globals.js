@@ -18,9 +18,9 @@ global.paths = {
 };
 global.api = {
 	baseUrl: "https://api.aof.gg/v3/",
-	ddragonBase: "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/",
+	ddragonBase: "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/",
 	token: null,
-	data: require("../assets/data/meta_6-15-1.json"),
+	data: require("../assets/data/meta_6-16-2.json"),
 };
 global.app = {
 	playingReplay: false,
@@ -47,37 +47,29 @@ global.replays = {
 	},
 	files: [],
 };
-global.settings = {};
+global.settings = {
+	save: () => {
+		console.log("Saving user settings");
 
-// Allow loading and saving settings
-let saveSettings = () => {
-	console.log("Saving user settings");
+		let data = _.omitBy(global.settings, _.isFunction);
+		fs.writeFileSync(global.paths.data + "/settings", JSON.stringify(data, null, 2));
+	},
+	load: () => {
+		console.log("Loading user settings");
+		
+		fs.readFile(global.paths.data + "/settings", (err, data) => {
+			if (err) {
+				console.log(err);
+				return;
+			}
 
-	delete global.settings.save;
-	delete global.settings.load;
-
-	global.settings.lolClientPath = client.leaguePath;
-
-	fs.writeFileSync(global.paths.data + "/settings", JSON.stringify(settings, null, 2));
-
-	global.settings.save = saveSettings;
-	global.settings.load = loadSettings;
+			global.settings = _.merge(global.settings, JSON.parse(data));
+		});
+	},
 };
-let loadSettings = () => {
-	console.log("Loading user settings");
-	fs.readFile(global.paths.data + "/settings", (err, data) => {
-		if (err) {
-			console.log(err);
-			return;
-		}
-
-		settings = JSON.parse(data);
-		settings.save = saveSettings;
-		settings.load = loadSettings;
-	});
+global.set = (name, value) => {
+	_.set(global, name, value);
 };
-global.settings.save = saveSettings;
-global.settings.load = loadSettings;
 
 
 // Load data

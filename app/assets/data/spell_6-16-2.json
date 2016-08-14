@@ -1,10 +1,10 @@
 {
     "type": "summoner",
-    "version": "6.15.1",
+    "version": "6.16.2",
     "data": {
         "SummonerBarrier": {
             "name": "Barrier",
-            "description": "Shields your champion for 115-455 (depending on champion level) for 2 seconds.",
+            "description": "Shields your champion from 115-455 damage (depending on champion level) for 2 seconds.",
             "image": {
                 "full": "SummonerBarrier.png",
                 "sprite": "spell0.png",

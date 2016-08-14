@@ -21,7 +21,7 @@ module.exports = React.createClass({
 	},
 	getInitialState: function() {
 		return {
-			open: false,
+			open: true,
 		};
 	},
 	toggle: function() {
@@ -35,9 +35,7 @@ module.exports = React.createClass({
 			<div className="titles">
 				{ this.state.open ? 
 					<div className="title">Analyze Or Feed</div>
-				:
-					null
-				}
+				: null }
 				{ this.state.open ?
 					<div className="sub-title">Client v{ AppStore.version }</div>
 				: null }

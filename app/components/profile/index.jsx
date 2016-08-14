@@ -7,7 +7,7 @@ import { ipcRenderer as ipc, remote } from "electron";
 import AppStore from "stores/app-store";
 import ApiStore from "stores/api-store";
 
-import Game from "aof-react-components/game";
+import GameResult from "aof-react-components/game-result";
 import Modal from "aof-react-components/modal";
 import Button from "aof-react-components/button";
 import Spinner from "aof-react-components/spinner";
@@ -57,12 +57,7 @@ module.exports = React.createClass({
 		ApiStore.getProfile();
 
 		ApiStore.getMyGames(0, entries => {
-			let games = _.map(entries, entry => {
-				entry.game.players = _.filter(entry.game.players, p => p.id == entry.summonerId);
-				entry.game.players[0].teamNr = entry.game.players[0].teamNr == entry.game.winTeamNr ? 0 : 1;
-				return entry.game;
-			});
-			this.setState({ games: games });
+			this.setState({ games: entries });
 		});
 	},
 	handleWatch: function(game) {
@@ -116,15 +111,26 @@ module.exports = React.createClass({
                 <div className="row">
                 	<h2>Local Recording</h2>
                 	{ this.state.localReplays.map(game => 
-                		<Game game={ game } key={ game.id } onWatch={ this.handleWatch } showTotals={ false } />)
-                	}
+                		<GameResult
+                			game={ game }
+                			player={ game.players[0].id }
+                			key={ game.id }
+                			onWatch={ this.handleWatch }
+                		/>
+                	)}
                 </div>
 			</div>
 			<div className="games">
 				<h2>My Games</h2>
 				{ this.state.games ? 
-					this.state.games.map(game => 
-						<Game game={ game } key={ game.id } onWatch={ this.handleWatch } showTotals={ false } />)
+					this.state.games.map(entry => 
+						<GameResult
+							game={ entry.game }
+							player={ entry.summonerId }
+							key={ entry.game.id }
+							onWatch={ this.handleWatch }
+						/>
+					)
 				:
 					<Spinner />
 				}

@@ -87,6 +87,14 @@
     ],
     "versions": [
         {
+            "id": 88,
+            "riotVersion": "6.16.2"
+        },
+        {
+            "id": 86,
+            "riotVersion": "6.16.1"
+        },
+        {
             "id": 80,
             "riotVersion": "6.15.1"
         },
@@ -192,8 +200,8 @@
         }
     ],
     "newestVersion": {
-        "id": 80,
-        "riotVersion": "6.15.1"
+        "id": 88,
+        "riotVersion": "6.16.2"
     },
     "queueTypes": [
         {
@@ -555,32 +563,32 @@
         {
             "id": 1,
             "name": "Cleanse",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerBoost.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerBoost.png"
         },
         {
             "id": 2,
             "name": "Clairvoyance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerClairvoyance.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerClairvoyance.png"
         },
         {
             "id": 3,
             "name": "Exhaust",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerExhaust.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerExhaust.png"
         },
         {
             "id": 4,
             "name": "Flash",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerFlash.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerFlash.png"
         },
         {
             "id": 6,
             "name": "Ghost",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerHaste.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerHaste.png"
         },
         {
             "id": 7,
             "name": "Heal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerHeal.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerHeal.png"
         },
         {
             "id": 10,
@@ -590,22 +598,22 @@
         {
             "id": 11,
             "name": "Smite",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerSmite.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerSmite.png"
         },
         {
             "id": 12,
             "name": "Teleport",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerTeleport.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerTeleport.png"
         },
         {
             "id": 13,
             "name": "Clarity",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerMana.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerMana.png"
         },
         {
             "id": 14,
             "name": "Ignite",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerDot.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerDot.png"
         },
         {
             "id": 17,
@@ -615,22 +623,22 @@
         {
             "id": 21,
             "name": "Barrier",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerBarrier.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerBarrier.png"
         },
         {
             "id": 30,
             "name": "To the King!",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerPoroRecall.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerPoroRecall.png"
         },
         {
             "id": 31,
             "name": "Poro Toss",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerPoroThrow.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerPoroThrow.png"
         },
         {
             "id": 32,
             "name": "Mark",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/spell/SummonerSnowball.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/spell/SummonerSnowball.png"
         },
         {
             "id": 33,
@@ -647,789 +655,794 @@
         {
             "id": 1,
             "name": "Annie",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Annie.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Annie.png"
         },
         {
             "id": 2,
             "name": "Olaf",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Olaf.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Olaf.png"
         },
         {
             "id": 3,
             "name": "Galio",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Galio.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Galio.png"
         },
         {
             "id": 4,
             "name": "Twisted Fate",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/TwistedFate.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/TwistedFate.png"
         },
         {
             "id": 5,
             "name": "Xin Zhao",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/XinZhao.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/XinZhao.png"
         },
         {
             "id": 6,
             "name": "Urgot",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Urgot.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Urgot.png"
         },
         {
             "id": 7,
             "name": "LeBlanc",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Leblanc.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Leblanc.png"
         },
         {
             "id": 8,
             "name": "Vladimir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Vladimir.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Vladimir.png"
         },
         {
             "id": 9,
             "name": "Fiddlesticks",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/FiddleSticks.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/FiddleSticks.png"
         },
         {
             "id": 10,
             "name": "Kayle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Kayle.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kayle.png"
         },
         {
             "id": 11,
             "name": "Master Yi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/MasterYi.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/MasterYi.png"
         },
         {
             "id": 12,
             "name": "Alistar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Alistar.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Alistar.png"
         },
         {
             "id": 13,
             "name": "Ryze",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ryze.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ryze.png"
         },
         {
             "id": 14,
             "name": "Sion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Sion.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Sion.png"
         },
         {
             "id": 15,
             "name": "Sivir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Sivir.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Sivir.png"
         },
         {
             "id": 16,
             "name": "Soraka",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Soraka.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Soraka.png"
         },
         {
             "id": 17,
             "name": "Teemo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Teemo.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Teemo.png"
         },
         {
             "id": 18,
             "name": "Tristana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Tristana.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Tristana.png"
         },
         {
             "id": 19,
             "name": "Warwick",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Warwick.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Warwick.png"
         },
         {
             "id": 20,
             "name": "Nunu",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nunu.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nunu.png"
         },
         {
             "id": 21,
             "name": "Miss Fortune",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/MissFortune.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/MissFortune.png"
         },
         {
             "id": 22,
             "name": "Ashe",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ashe.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ashe.png"
         },
         {
             "id": 23,
             "name": "Tryndamere",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Tryndamere.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Tryndamere.png"
         },
         {
             "id": 24,
             "name": "Jax",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Jax.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Jax.png"
         },
         {
             "id": 25,
             "name": "Morgana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Morgana.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Morgana.png"
         },
         {
             "id": 26,
             "name": "Zilean",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Zilean.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Zilean.png"
         },
         {
             "id": 27,
             "name": "Singed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Singed.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Singed.png"
         },
         {
             "id": 28,
             "name": "Evelynn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Evelynn.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Evelynn.png"
         },
         {
             "id": 29,
             "name": "Twitch",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Twitch.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Twitch.png"
         },
         {
             "id": 30,
             "name": "Karthus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Karthus.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Karthus.png"
         },
         {
             "id": 31,
             "name": "Cho'Gath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Chogath.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Chogath.png"
         },
         {
             "id": 32,
             "name": "Amumu",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Amumu.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Amumu.png"
         },
         {
             "id": 33,
             "name": "Rammus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Rammus.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Rammus.png"
         },
         {
             "id": 34,
             "name": "Anivia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Anivia.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Anivia.png"
         },
         {
             "id": 35,
             "name": "Shaco",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Shaco.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Shaco.png"
         },
         {
             "id": 36,
             "name": "Dr. Mundo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/DrMundo.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/DrMundo.png"
         },
         {
             "id": 37,
             "name": "Sona",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Sona.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Sona.png"
         },
         {
             "id": 38,
             "name": "Kassadin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Kassadin.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kassadin.png"
         },
         {
             "id": 39,
             "name": "Irelia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Irelia.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Irelia.png"
         },
         {
             "id": 40,
             "name": "Janna",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Janna.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Janna.png"
         },
         {
             "id": 41,
             "name": "Gangplank",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Gangplank.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Gangplank.png"
         },
         {
             "id": 42,
             "name": "Corki",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Corki.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Corki.png"
         },
         {
             "id": 43,
             "name": "Karma",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Karma.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Karma.png"
         },
         {
             "id": 44,
             "name": "Taric",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Taric.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Taric.png"
         },
         {
             "id": 45,
             "name": "Veigar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Veigar.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Veigar.png"
         },
         {
             "id": 48,
             "name": "Trundle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Trundle.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Trundle.png"
         },
         {
             "id": 50,
             "name": "Swain",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Swain.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Swain.png"
         },
         {
             "id": 51,
             "name": "Caitlyn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Caitlyn.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Caitlyn.png"
         },
         {
             "id": 53,
             "name": "Blitzcrank",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Blitzcrank.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Blitzcrank.png"
         },
         {
             "id": 54,
             "name": "Malphite",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Malphite.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Malphite.png"
         },
         {
             "id": 55,
             "name": "Katarina",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Katarina.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Katarina.png"
         },
         {
             "id": 56,
             "name": "Nocturne",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nocturne.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nocturne.png"
         },
         {
             "id": 57,
             "name": "Maokai",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Maokai.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Maokai.png"
         },
         {
             "id": 58,
             "name": "Renekton",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Renekton.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Renekton.png"
         },
         {
             "id": 59,
             "name": "Jarvan IV",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/JarvanIV.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/JarvanIV.png"
         },
         {
             "id": 60,
             "name": "Elise",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Elise.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Elise.png"
         },
         {
             "id": 61,
             "name": "Orianna",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Orianna.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Orianna.png"
         },
         {
             "id": 62,
             "name": "Wukong",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/MonkeyKing.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/MonkeyKing.png"
         },
         {
             "id": 63,
             "name": "Brand",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Brand.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Brand.png"
         },
         {
             "id": 64,
             "name": "Lee Sin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/LeeSin.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/LeeSin.png"
         },
         {
             "id": 67,
             "name": "Vayne",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Vayne.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Vayne.png"
         },
         {
             "id": 68,
             "name": "Rumble",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Rumble.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Rumble.png"
         },
         {
             "id": 69,
             "name": "Cassiopeia",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Cassiopeia.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Cassiopeia.png"
         },
         {
             "id": 72,
             "name": "Skarner",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Skarner.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Skarner.png"
         },
         {
             "id": 74,
             "name": "Heimerdinger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Heimerdinger.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Heimerdinger.png"
         },
         {
             "id": 75,
             "name": "Nasus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nasus.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nasus.png"
         },
         {
             "id": 76,
             "name": "Nidalee",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nidalee.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nidalee.png"
         },
         {
             "id": 77,
             "name": "Udyr",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Udyr.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Udyr.png"
         },
         {
             "id": 78,
             "name": "Poppy",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Poppy.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Poppy.png"
         },
         {
             "id": 79,
             "name": "Gragas",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Gragas.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Gragas.png"
         },
         {
             "id": 80,
             "name": "Pantheon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Pantheon.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Pantheon.png"
         },
         {
             "id": 81,
             "name": "Ezreal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ezreal.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ezreal.png"
         },
         {
             "id": 82,
             "name": "Mordekaiser",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Mordekaiser.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Mordekaiser.png"
         },
         {
             "id": 83,
             "name": "Yorick",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Yorick.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Yorick.png"
         },
         {
             "id": 84,
             "name": "Akali",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Akali.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Akali.png"
         },
         {
             "id": 85,
             "name": "Kennen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Kennen.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kennen.png"
         },
         {
             "id": 86,
             "name": "Garen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Garen.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Garen.png"
         },
         {
             "id": 89,
             "name": "Leona",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Leona.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Leona.png"
         },
         {
             "id": 90,
             "name": "Malzahar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Malzahar.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Malzahar.png"
         },
         {
             "id": 91,
             "name": "Talon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Talon.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Talon.png"
         },
         {
             "id": 92,
             "name": "Riven",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Riven.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Riven.png"
         },
         {
             "id": 96,
             "name": "Kog'Maw",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/KogMaw.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/KogMaw.png"
         },
         {
             "id": 98,
             "name": "Shen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Shen.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Shen.png"
         },
         {
             "id": 99,
             "name": "Lux",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Lux.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Lux.png"
         },
         {
             "id": 101,
             "name": "Xerath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Xerath.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Xerath.png"
         },
         {
             "id": 102,
             "name": "Shyvana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Shyvana.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Shyvana.png"
         },
         {
             "id": 103,
             "name": "Ahri",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ahri.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ahri.png"
         },
         {
             "id": 104,
             "name": "Graves",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Graves.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Graves.png"
         },
         {
             "id": 105,
             "name": "Fizz",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Fizz.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Fizz.png"
         },
         {
             "id": 106,
             "name": "Volibear",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Volibear.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Volibear.png"
         },
         {
             "id": 107,
             "name": "Rengar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Rengar.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Rengar.png"
         },
         {
             "id": 110,
             "name": "Varus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Varus.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Varus.png"
         },
         {
             "id": 111,
             "name": "Nautilus",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nautilus.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nautilus.png"
         },
         {
             "id": 112,
             "name": "Viktor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Viktor.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Viktor.png"
         },
         {
             "id": 113,
             "name": "Sejuani",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Sejuani.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Sejuani.png"
         },
         {
             "id": 114,
             "name": "Fiora",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Fiora.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Fiora.png"
         },
         {
             "id": 115,
             "name": "Ziggs",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ziggs.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ziggs.png"
         },
         {
             "id": 117,
             "name": "Lulu",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Lulu.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Lulu.png"
         },
         {
             "id": 119,
             "name": "Draven",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Draven.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Draven.png"
         },
         {
             "id": 120,
             "name": "Hecarim",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Hecarim.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Hecarim.png"
         },
         {
             "id": 121,
             "name": "Kha'Zix",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Khazix.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Khazix.png"
         },
         {
             "id": 122,
             "name": "Darius",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Darius.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Darius.png"
         },
         {
             "id": 126,
             "name": "Jayce",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Jayce.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Jayce.png"
         },
         {
             "id": 127,
             "name": "Lissandra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Lissandra.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Lissandra.png"
         },
         {
             "id": 131,
             "name": "Diana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Diana.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Diana.png"
         },
         {
             "id": 133,
             "name": "Quinn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Quinn.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Quinn.png"
         },
         {
             "id": 134,
             "name": "Syndra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Syndra.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Syndra.png"
         },
         {
             "id": 136,
             "name": "Aurelion Sol",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/AurelionSol.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/AurelionSol.png"
         },
         {
             "id": 143,
             "name": "Zyra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Zyra.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Zyra.png"
         },
         {
             "id": 150,
             "name": "Gnar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Gnar.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Gnar.png"
         },
         {
             "id": 154,
             "name": "Zac",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Zac.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Zac.png"
         },
         {
             "id": 157,
             "name": "Yasuo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Yasuo.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Yasuo.png"
         },
         {
             "id": 161,
             "name": "Vel'Koz",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Velkoz.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Velkoz.png"
         },
         {
             "id": 163,
             "name": "Taliyah",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Taliyah.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Taliyah.png"
         },
         {
             "id": 201,
             "name": "Braum",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Braum.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Braum.png"
         },
         {
             "id": 202,
             "name": "Jhin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Jhin.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Jhin.png"
         },
         {
             "id": 203,
             "name": "Kindred",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Kindred.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kindred.png"
         },
         {
             "id": 222,
             "name": "Jinx",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Jinx.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Jinx.png"
         },
         {
             "id": 223,
             "name": "Tahm Kench",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/TahmKench.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/TahmKench.png"
         },
         {
             "id": 236,
             "name": "Lucian",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Lucian.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Lucian.png"
         },
         {
             "id": 238,
             "name": "Zed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Zed.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Zed.png"
+        },
+        {
+            "id": 240,
+            "name": "Kled",
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kled.png"
         },
         {
             "id": 245,
             "name": "Ekko",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Ekko.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Ekko.png"
         },
         {
             "id": 254,
             "name": "Vi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Vi.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Vi.png"
         },
         {
             "id": 266,
             "name": "Aatrox",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Aatrox.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Aatrox.png"
         },
         {
             "id": 267,
             "name": "Nami",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Nami.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Nami.png"
         },
         {
             "id": 268,
             "name": "Azir",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Azir.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Azir.png"
         },
         {
             "id": 412,
             "name": "Thresh",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Thresh.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Thresh.png"
         },
         {
             "id": 420,
             "name": "Illaoi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Illaoi.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Illaoi.png"
         },
         {
             "id": 421,
             "name": "Rek'Sai",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/RekSai.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/RekSai.png"
         },
         {
             "id": 429,
             "name": "Kalista",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Kalista.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Kalista.png"
         },
         {
             "id": 432,
             "name": "Bard",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/champion/Bard.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/champion/Bard.png"
         }
     ],
     "items": [
         {
             "id": 1001,
             "name": "Boots of Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1001.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1001.png"
         },
         {
             "id": 1004,
             "name": "Faerie Charm",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1004.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1004.png"
         },
         {
             "id": 1006,
             "name": "Rejuvenation Bead",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1006.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1006.png"
         },
         {
             "id": 1011,
             "name": "Giant's Belt",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1011.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1011.png"
         },
         {
             "id": 1018,
             "name": "Cloak of Agility",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1018.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1018.png"
         },
         {
             "id": 1026,
             "name": "Blasting Wand",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1026.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1026.png"
         },
         {
             "id": 1027,
             "name": "Sapphire Crystal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1027.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1027.png"
         },
         {
             "id": 1028,
             "name": "Ruby Crystal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1028.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1028.png"
         },
         {
             "id": 1029,
             "name": "Cloth Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1029.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1029.png"
         },
         {
             "id": 1031,
             "name": "Chain Vest",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1031.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1031.png"
         },
         {
             "id": 1033,
             "name": "Null-Magic Mantle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1033.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1033.png"
         },
         {
             "id": 1036,
             "name": "Long Sword",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1036.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1036.png"
         },
         {
             "id": 1037,
             "name": "Pickaxe",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1037.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1037.png"
         },
         {
             "id": 1038,
             "name": "B. F. Sword",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1038.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1038.png"
         },
         {
             "id": 1039,
             "name": "Hunter's Talisman",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1039.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1039.png"
         },
         {
             "id": 1041,
             "name": "Hunter's Machete",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1041.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1041.png"
         },
         {
             "id": 1042,
             "name": "Dagger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1042.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1042.png"
         },
         {
             "id": 1043,
             "name": "Recurve Bow",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1043.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1043.png"
         },
         {
             "id": 1051,
             "name": "Brawler's Gloves",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1051.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1051.png"
         },
         {
             "id": 1052,
             "name": "Amplifying Tome",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1052.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1052.png"
         },
         {
             "id": 1053,
             "name": "Vampiric Scepter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1053.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1053.png"
         },
         {
             "id": 1054,
             "name": "Doran's Shield",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1054.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1054.png"
         },
         {
             "id": 1055,
             "name": "Doran's Blade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1055.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1055.png"
         },
         {
             "id": 1056,
             "name": "Doran's Ring",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1056.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1056.png"
         },
         {
             "id": 1057,
             "name": "Negatron Cloak",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1057.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1057.png"
         },
         {
             "id": 1058,
             "name": "Needlessly Large Rod",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1058.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1058.png"
         },
         {
             "id": 1062,
@@ -1459,12 +1472,12 @@
         {
             "id": 1082,
             "name": "The Dark Seal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1082.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1082.png"
         },
         {
             "id": 1083,
             "name": "Cull",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1083.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1083.png"
         },
         {
             "id": 1300,
@@ -1679,17 +1692,17 @@
         {
             "id": 1400,
             "name": "Enchantment: Warrior",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1400.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1400.png"
         },
         {
             "id": 1401,
             "name": "Enchantment: Cinderhulk",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1401.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1401.png"
         },
         {
             "id": 1402,
             "name": "Enchantment: Runic Echoes",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1402.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1402.png"
         },
         {
             "id": 1403,
@@ -1699,17 +1712,17 @@
         {
             "id": 1408,
             "name": "Enchantment: Warrior",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1408.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1408.png"
         },
         {
             "id": 1409,
             "name": "Enchantment: Cinderhulk",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1409.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1409.png"
         },
         {
             "id": 1410,
             "name": "Enchantment: Runic Echoes",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1410.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1410.png"
         },
         {
             "id": 1411,
@@ -1719,17 +1732,17 @@
         {
             "id": 1412,
             "name": "Enchantment: Warrior",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1412.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1412.png"
         },
         {
             "id": 1413,
             "name": "Enchantment: Cinderhulk",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1413.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1413.png"
         },
         {
             "id": 1414,
             "name": "Enchantment: Runic Echoes",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1414.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1414.png"
         },
         {
             "id": 1415,
@@ -1739,22 +1752,22 @@
         {
             "id": 1416,
             "name": "Enchantment: Bloodrazor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1416.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1416.png"
         },
         {
             "id": 1418,
             "name": "Enchantment: Bloodrazor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1418.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1418.png"
         },
         {
             "id": 1419,
             "name": "Enchantment: Bloodrazor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/1419.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/1419.png"
         },
         {
             "id": 2003,
             "name": "Health Potion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2003.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2003.png"
         },
         {
             "id": 2004,
@@ -1764,32 +1777,32 @@
         {
             "id": 2009,
             "name": "Total Biscuit of Rejuvenation",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2009.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2009.png"
         },
         {
             "id": 2010,
             "name": "Total Biscuit of Rejuvenation",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2010.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2010.png"
         },
         {
             "id": 2015,
             "name": "Kircheis Shard",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2015.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2015.png"
         },
         {
             "id": 2031,
             "name": "Refillable Potion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2031.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2031.png"
         },
         {
             "id": 2032,
             "name": "Hunter's Potion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2032.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2032.png"
         },
         {
             "id": 2033,
             "name": "Corrupting Potion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2033.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2033.png"
         },
         {
             "id": 2041,
@@ -1799,7 +1812,7 @@
         {
             "id": 2043,
             "name": "Vision Ward",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2043.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2043.png"
         },
         {
             "id": 2044,
@@ -1809,42 +1822,42 @@
         {
             "id": 2045,
             "name": "Ruby Sightstone",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2045.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2045.png"
         },
         {
             "id": 2047,
             "name": "Oracle's Extract",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2047.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2047.png"
         },
         {
             "id": 2049,
             "name": "Sightstone",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2049.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2049.png"
         },
         {
             "id": 2050,
             "name": "Explorer's Ward",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2050.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2050.png"
         },
         {
             "id": 2051,
             "name": "Guardian's Horn",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2051.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2051.png"
         },
         {
             "id": 2052,
             "name": "Poro-Snax",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2052.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2052.png"
         },
         {
             "id": 2053,
             "name": "Raptor Cloak",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2053.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2053.png"
         },
         {
             "id": 2054,
             "name": "Diet Poro-Snax",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2054.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2054.png"
         },
         {
             "id": 2137,
@@ -1854,82 +1867,82 @@
         {
             "id": 2138,
             "name": "Elixir of Iron",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2138.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2138.png"
         },
         {
             "id": 2139,
             "name": "Elixir of Sorcery",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2139.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2139.png"
         },
         {
             "id": 2140,
             "name": "Elixir of Wrath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2140.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2140.png"
         },
         {
             "id": 2301,
             "name": "Eye of the Watchers",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2301.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2301.png"
         },
         {
             "id": 2302,
             "name": "Eye of the Oasis",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2302.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2302.png"
         },
         {
             "id": 2303,
             "name": "Eye of the Equinox",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/2303.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/2303.png"
         },
         {
             "id": 3001,
             "name": "Abyssal Scepter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3001.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3001.png"
         },
         {
             "id": 3003,
             "name": "Archangel's Staff",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3003.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3003.png"
         },
         {
             "id": 3004,
             "name": "Manamune",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3004.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3004.png"
         },
         {
             "id": 3006,
             "name": "Berserker's Greaves",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3006.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3006.png"
         },
         {
             "id": 3007,
             "name": "Archangel's Staff (Quick Charge)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3007.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3007.png"
         },
         {
             "id": 3008,
             "name": "Manamune (Quick Charge)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3008.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3008.png"
         },
         {
             "id": 3009,
             "name": "Boots of Swiftness",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3009.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3009.png"
         },
         {
             "id": 3010,
             "name": "Catalyst of Aeons",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3010.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3010.png"
         },
         {
             "id": 3020,
             "name": "Sorcerer's Shoes",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3020.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3020.png"
         },
         {
             "id": 3022,
             "name": "Frozen Mallet",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3022.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3022.png"
         },
         {
             "id": 3023,
@@ -1939,242 +1952,242 @@
         {
             "id": 3024,
             "name": "Glacial Shroud",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3024.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3024.png"
         },
         {
             "id": 3025,
             "name": "Iceborn Gauntlet",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3025.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3025.png"
         },
         {
             "id": 3026,
             "name": "Guardian Angel",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3026.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3026.png"
         },
         {
             "id": 3027,
             "name": "Rod of Ages",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3027.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3027.png"
         },
         {
             "id": 3028,
             "name": "Chalice of Harmony",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3028.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3028.png"
         },
         {
             "id": 3029,
             "name": "Rod of Ages (Quick Charge)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3029.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3029.png"
         },
         {
             "id": 3030,
             "name": "Hextech GLP-800",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3030.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3030.png"
         },
         {
             "id": 3031,
             "name": "Infinity Edge",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3031.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3031.png"
         },
         {
             "id": 3033,
             "name": "Mortal Reminder",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3033.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3033.png"
         },
         {
             "id": 3034,
             "name": "Giant Slayer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3034.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3034.png"
         },
         {
             "id": 3035,
             "name": "Last Whisper",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3035.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3035.png"
         },
         {
             "id": 3036,
             "name": "Lord Dominik's Regards",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3036.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3036.png"
         },
         {
             "id": 3040,
             "name": "Seraph's Embrace",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3040.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3040.png"
         },
         {
             "id": 3041,
             "name": "Mejai's Soulstealer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3041.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3041.png"
         },
         {
             "id": 3042,
             "name": "Muramana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3042.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3042.png"
         },
         {
             "id": 3043,
             "name": "Muramana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3043.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3043.png"
         },
         {
             "id": 3044,
             "name": "Phage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3044.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3044.png"
         },
         {
             "id": 3046,
             "name": "Phantom Dancer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3046.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3046.png"
         },
         {
             "id": 3047,
             "name": "Ninja Tabi",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3047.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3047.png"
         },
         {
             "id": 3048,
             "name": "Seraph's Embrace",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3048.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3048.png"
         },
         {
             "id": 3050,
             "name": "Zeke's Harbinger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3050.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3050.png"
         },
         {
             "id": 3052,
             "name": "Jaurim's Fist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3052.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3052.png"
         },
         {
             "id": 3053,
             "name": "Sterak's Gage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3053.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3053.png"
         },
         {
             "id": 3056,
             "name": "Ohmwrecker",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3056.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3056.png"
         },
         {
             "id": 3057,
             "name": "Sheen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3057.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3057.png"
         },
         {
             "id": 3060,
             "name": "Banner of Command",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3060.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3060.png"
         },
         {
             "id": 3065,
             "name": "Spirit Visage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3065.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3065.png"
         },
         {
             "id": 3067,
             "name": "Kindlegem",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3067.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3067.png"
         },
         {
             "id": 3068,
             "name": "Sunfire Cape",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3068.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3068.png"
         },
         {
             "id": 3069,
             "name": "Talisman of Ascension",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3069.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3069.png"
         },
         {
             "id": 3070,
             "name": "Tear of the Goddess",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3070.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3070.png"
         },
         {
             "id": 3071,
             "name": "The Black Cleaver",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3071.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3071.png"
         },
         {
             "id": 3072,
             "name": "The Bloodthirster",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3072.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3072.png"
         },
         {
             "id": 3073,
             "name": "Tear of the Goddess (Quick Charge)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3073.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3073.png"
         },
         {
             "id": 3074,
             "name": "Ravenous Hydra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3074.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3074.png"
         },
         {
             "id": 3075,
             "name": "Thornmail",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3075.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3075.png"
         },
         {
             "id": 3077,
             "name": "Tiamat",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3077.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3077.png"
         },
         {
             "id": 3078,
             "name": "Trinity Force",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3078.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3078.png"
         },
         {
             "id": 3082,
             "name": "Warden's Mail",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3082.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3082.png"
         },
         {
             "id": 3083,
             "name": "Warmog's Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3083.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3083.png"
         },
         {
             "id": 3084,
             "name": "Overlord's Bloodmail",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3084.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3084.png"
         },
         {
             "id": 3085,
             "name": "Runaan's Hurricane",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3085.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3085.png"
         },
         {
             "id": 3086,
             "name": "Zeal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3086.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3086.png"
         },
         {
             "id": 3087,
             "name": "Statikk Shiv",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3087.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3087.png"
         },
         {
             "id": 3089,
             "name": "Rabadon's Deathcap",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3089.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3089.png"
         },
         {
             "id": 3090,
             "name": "Wooglet's Witchcap",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3090.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3090.png"
         },
         {
             "id": 3091,
             "name": "Wit's End",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3091.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3091.png"
         },
         {
             "id": 3092,
             "name": "Frost Queen's Claim",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3092.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3092.png"
         },
         {
             "id": 3093,
@@ -2184,47 +2197,47 @@
         {
             "id": 3094,
             "name": "Rapid Firecannon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3094.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3094.png"
         },
         {
             "id": 3096,
             "name": "Nomad's Medallion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3096.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3096.png"
         },
         {
             "id": 3097,
             "name": "Targon's Brace",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3097.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3097.png"
         },
         {
             "id": 3098,
             "name": "Frostfang",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3098.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3098.png"
         },
         {
             "id": 3100,
             "name": "Lich Bane",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3100.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3100.png"
         },
         {
             "id": 3101,
             "name": "Stinger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3101.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3101.png"
         },
         {
             "id": 3102,
             "name": "Banshee's Veil",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3102.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3102.png"
         },
         {
             "id": 3104,
             "name": "Lord Van Damm's Pillager",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3104.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3104.png"
         },
         {
             "id": 3105,
             "name": "Aegis of the Legion",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3105.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3105.png"
         },
         {
             "id": 3106,
@@ -2234,97 +2247,97 @@
         {
             "id": 3108,
             "name": "Fiendish Codex",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3108.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3108.png"
         },
         {
             "id": 3110,
             "name": "Frozen Heart",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3110.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3110.png"
         },
         {
             "id": 3111,
             "name": "Mercury's Treads",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3111.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3111.png"
         },
         {
             "id": 3112,
             "name": "Guardian's Orb",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3112.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3112.png"
         },
         {
             "id": 3113,
             "name": "Aether Wisp",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3113.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3113.png"
         },
         {
             "id": 3114,
             "name": "Forbidden Idol",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3114.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3114.png"
         },
         {
             "id": 3115,
             "name": "Nashor's Tooth",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3115.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3115.png"
         },
         {
             "id": 3116,
             "name": "Rylai's Crystal Scepter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3116.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3116.png"
         },
         {
             "id": 3117,
             "name": "Boots of Mobility",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3117.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3117.png"
         },
         {
             "id": 3122,
             "name": "Wicked Hatchet",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3122.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3122.png"
         },
         {
             "id": 3123,
             "name": "Executioner's Calling",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3123.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3123.png"
         },
         {
             "id": 3124,
             "name": "Guinsoo's Rageblade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3124.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3124.png"
         },
         {
             "id": 3133,
             "name": "Caulfield's Warhammer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3133.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3133.png"
         },
         {
             "id": 3134,
             "name": "Serrated Dirk",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3134.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3134.png"
         },
         {
             "id": 3135,
             "name": "Void Staff",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3135.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3135.png"
         },
         {
             "id": 3136,
             "name": "Haunting Guise",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3136.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3136.png"
         },
         {
             "id": 3137,
             "name": "Dervish Blade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3137.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3137.png"
         },
         {
             "id": 3139,
             "name": "Mercurial Scimitar",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3139.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3139.png"
         },
         {
             "id": 3140,
             "name": "Quicksilver Sash",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3140.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3140.png"
         },
         {
             "id": 3141,
@@ -2334,32 +2347,32 @@
         {
             "id": 3142,
             "name": "Youmuu's Ghostblade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3142.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3142.png"
         },
         {
             "id": 3143,
             "name": "Randuin's Omen",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3143.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3143.png"
         },
         {
             "id": 3144,
             "name": "Bilgewater Cutlass",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3144.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3144.png"
         },
         {
             "id": 3145,
             "name": "Hextech Revolver",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3145.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3145.png"
         },
         {
             "id": 3146,
             "name": "Hextech Gunblade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3146.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3146.png"
         },
         {
             "id": 3147,
             "name": "Duskblade of Draktharr",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3147.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3147.png"
         },
         {
             "id": 3150,
@@ -2369,17 +2382,17 @@
         {
             "id": 3151,
             "name": "Liandry's Torment",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3151.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3151.png"
         },
         {
             "id": 3152,
             "name": "Hextech Protobelt-01",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3152.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3152.png"
         },
         {
             "id": 3153,
             "name": "Blade of the Ruined King",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3153.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3153.png"
         },
         {
             "id": 3154,
@@ -2389,22 +2402,22 @@
         {
             "id": 3155,
             "name": "Hexdrinker",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3155.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3155.png"
         },
         {
             "id": 3156,
             "name": "Maw of Malmortius",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3156.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3156.png"
         },
         {
             "id": 3157,
             "name": "Zhonya's Hourglass",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3157.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3157.png"
         },
         {
             "id": 3158,
             "name": "Ionian Boots of Lucidity",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3158.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3158.png"
         },
         {
             "id": 3159,
@@ -2414,12 +2427,12 @@
         {
             "id": 3165,
             "name": "Morellonomicon",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3165.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3165.png"
         },
         {
             "id": 3170,
             "name": "Moonflair Spellblade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3170.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3170.png"
         },
         {
             "id": 3172,
@@ -2429,7 +2442,7 @@
         {
             "id": 3174,
             "name": "Athene's Unholy Grail",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3174.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3174.png"
         },
         {
             "id": 3180,
@@ -2439,62 +2452,62 @@
         {
             "id": 3181,
             "name": "Sanguine Blade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3181.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3181.png"
         },
         {
             "id": 3184,
             "name": "Guardian's Hammer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3184.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3184.png"
         },
         {
             "id": 3185,
             "name": "The Lightbringer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3185.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3185.png"
         },
         {
             "id": 3187,
             "name": "Arcane Sweeper",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3187.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3187.png"
         },
         {
             "id": 3190,
             "name": "Locket of the Iron Solari",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3190.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3190.png"
         },
         {
             "id": 3191,
             "name": "Seeker's Armguard",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3191.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3191.png"
         },
         {
             "id": 3196,
             "name": "The Hex Core mk-1",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3196.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3196.png"
         },
         {
             "id": 3197,
             "name": "The Hex Core mk-2",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3197.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3197.png"
         },
         {
             "id": 3198,
             "name": "Perfect Hex Core",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3198.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3198.png"
         },
         {
             "id": 3200,
             "name": "Prototype Hex Core",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3200.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3200.png"
         },
         {
             "id": 3211,
             "name": "Spectre's Cowl",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3211.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3211.png"
         },
         {
             "id": 3222,
             "name": "Mikael's Crucible",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3222.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3222.png"
         },
         {
             "id": 3240,
@@ -2529,7 +2542,7 @@
         {
             "id": 3285,
             "name": "Luden's Echo",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3285.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3285.png"
         },
         {
             "id": 3290,
@@ -2539,27 +2552,27 @@
         {
             "id": 3301,
             "name": "Ancient Coin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3301.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3301.png"
         },
         {
             "id": 3302,
             "name": "Relic Shield",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3302.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3302.png"
         },
         {
             "id": 3303,
             "name": "Spellthief's Edge",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3303.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3303.png"
         },
         {
             "id": 3340,
             "name": "Warding Totem (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3340.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3340.png"
         },
         {
             "id": 3341,
             "name": "Sweeping Lens (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3341.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3341.png"
         },
         {
             "id": 3342,
@@ -2569,37 +2582,37 @@
         {
             "id": 3345,
             "name": "Soul Anchor (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3345.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3345.png"
         },
         {
             "id": 3348,
             "name": "Arcane Sweeper",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3348.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3348.png"
         },
         {
             "id": 3361,
             "name": "Greater Stealth Totem (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3361.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3361.png"
         },
         {
             "id": 3362,
             "name": "Greater Vision Totem (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3362.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3362.png"
         },
         {
             "id": 3363,
             "name": "Farsight Alteration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3363.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3363.png"
         },
         {
             "id": 3364,
             "name": "Oracle Alteration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3364.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3364.png"
         },
         {
             "id": 3401,
             "name": "Face of the Mountain",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3401.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3401.png"
         },
         {
             "id": 3430,
@@ -2624,37 +2637,37 @@
         {
             "id": 3460,
             "name": "Golden Transcendence",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3460.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3460.png"
         },
         {
             "id": 3461,
             "name": "Golden Transcendence (Disabled)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3461.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3461.png"
         },
         {
             "id": 3462,
             "name": "Seer Stone (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3462.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3462.png"
         },
         {
             "id": 3504,
             "name": "Ardent Censer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3504.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3504.png"
         },
         {
             "id": 3508,
             "name": "Essence Reaver",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3508.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3508.png"
         },
         {
             "id": 3512,
             "name": "Zz'Rot Portal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3512.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3512.png"
         },
         {
             "id": 3599,
             "name": "The Black Spear",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3599.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3599.png"
         },
         {
             "id": 3611,
@@ -2724,82 +2737,82 @@
         {
             "id": 3630,
             "name": "Siege Teleport",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3630.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3630.png"
         },
         {
             "id": 3631,
             "name": "Siege Ballista",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3631.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3631.png"
         },
         {
             "id": 3632,
             "name": "",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3632.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3632.png"
         },
         {
             "id": 3633,
             "name": "Siege Teleport",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3633.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3633.png"
         },
         {
             "id": 3634,
             "name": "Tower: Beam of Ruination",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3634.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3634.png"
         },
         {
             "id": 3635,
             "name": "Port Pad",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3635.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3635.png"
         },
         {
             "id": 3636,
             "name": "Tower: Storm Bulwark",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3636.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3636.png"
         },
         {
             "id": 3637,
             "name": "Nexus Siege: Siege Weapon Slot",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3637.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3637.png"
         },
         {
             "id": 3640,
             "name": "Flash Zone",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3640.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3640.png"
         },
         {
             "id": 3641,
             "name": "Vanguard Banner",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3641.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3641.png"
         },
         {
             "id": 3642,
             "name": "Siege Refund",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3642.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3642.png"
         },
         {
             "id": 3643,
             "name": "Entropy Field",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3643.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3643.png"
         },
         {
             "id": 3645,
             "name": "Seer Stone (Trinket)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3645.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3645.png"
         },
         {
             "id": 3647,
             "name": "Shield Totem",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3647.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3647.png"
         },
         {
             "id": 3648,
             "name": "Siege Teleport (Inactive)",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3648.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3648.png"
         },
         {
             "id": 3649,
             "name": "Siege Sight Warder",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3649.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3649.png"
         },
         {
             "id": 3652,
@@ -2809,17 +2822,17 @@
         {
             "id": 3671,
             "name": "Enchantment: Warrior",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3671.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3671.png"
         },
         {
             "id": 3672,
             "name": "Enchantment: Cinderhulk",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3672.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3672.png"
         },
         {
             "id": 3673,
             "name": "Enchantment: Runic Echoes",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3673.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3673.png"
         },
         {
             "id": 3674,
@@ -2829,12 +2842,12 @@
         {
             "id": 3675,
             "name": "Enchantment: Bloodrazor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3675.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3675.png"
         },
         {
             "id": 3706,
             "name": "Stalker's Blade",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3706.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3706.png"
         },
         {
             "id": 3707,
@@ -2859,7 +2872,7 @@
         {
             "id": 3711,
             "name": "Tracker's Knife",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3711.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3711.png"
         },
         {
             "id": 3713,
@@ -2874,7 +2887,7 @@
         {
             "id": 3715,
             "name": "Skirmisher's Sabre",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3715.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3715.png"
         },
         {
             "id": 3716,
@@ -2934,7 +2947,7 @@
         {
             "id": 3742,
             "name": "Dead Man's Plate",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3742.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3742.png"
         },
         {
             "id": 3744,
@@ -2949,32 +2962,32 @@
         {
             "id": 3748,
             "name": "Titanic Hydra",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3748.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3748.png"
         },
         {
             "id": 3751,
             "name": "Bami's Cinder",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3751.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3751.png"
         },
         {
             "id": 3800,
             "name": "Righteous Glory",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3800.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3800.png"
         },
         {
             "id": 3801,
             "name": "Crystalline Bracer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3801.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3801.png"
         },
         {
             "id": 3802,
             "name": "Lost Chapter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3802.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3802.png"
         },
         {
             "id": 3812,
             "name": "Death's Dance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3812.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3812.png"
         },
         {
             "id": 3829,
@@ -2999,17 +3012,17 @@
         {
             "id": 3901,
             "name": "Fire at Will",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3901.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3901.png"
         },
         {
             "id": 3902,
             "name": "Death's Daughter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3902.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3902.png"
         },
         {
             "id": 3903,
             "name": "Raise Morale",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/item/3903.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/item/3903.png"
         },
         {
             "id": 3911,
@@ -3046,1482 +3059,1482 @@
         {
             "id": 5001,
             "name": "Lesser Mark of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5002,
             "name": "Lesser Mark of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_1.png"
         },
         {
             "id": 5003,
             "name": "Lesser Mark of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5005,
             "name": "Lesser Mark of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5007,
             "name": "Lesser Mark of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5009,
             "name": "Lesser Mark of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5011,
             "name": "Lesser Mark of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5012,
             "name": "Lesser Mark of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_1.png"
         },
         {
             "id": 5013,
             "name": "Lesser Mark of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5015,
             "name": "Lesser Mark of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5016,
             "name": "Lesser Mark of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_1.png"
         },
         {
             "id": 5021,
             "name": "Lesser Mark of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5023,
             "name": "Lesser Mark of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5024,
             "name": "Lesser Mark of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_1.png"
         },
         {
             "id": 5025,
             "name": "Lesser Mark of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5026,
             "name": "Lesser Mark of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_1.png"
         },
         {
             "id": 5027,
             "name": "Lesser Mark of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_1.png"
         },
         {
             "id": 5029,
             "name": "Lesser Mark of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5031,
             "name": "Lesser Glyph of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5032,
             "name": "Lesser Glyph of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_1.png"
         },
         {
             "id": 5033,
             "name": "Lesser Glyph of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5035,
             "name": "Lesser Glyph of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5037,
             "name": "Lesser Glyph of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5041,
             "name": "Lesser Glyph of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5042,
             "name": "Lesser Glyph of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_1.png"
         },
         {
             "id": 5043,
             "name": "Lesser Glyph of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5045,
             "name": "Lesser Glyph of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5046,
             "name": "Lesser Glyph of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_1.png"
         },
         {
             "id": 5047,
             "name": "Lesser Glyph of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5051,
             "name": "Lesser Glyph of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5052,
             "name": "Lesser Glyph of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_1.png"
         },
         {
             "id": 5053,
             "name": "Lesser Glyph of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5054,
             "name": "Lesser Glyph of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_1.png"
         },
         {
             "id": 5055,
             "name": "Lesser Glyph of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5056,
             "name": "Lesser Glyph of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_1.png"
         },
         {
             "id": 5057,
             "name": "Lesser Glyph of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_1.png"
         },
         {
             "id": 5058,
             "name": "Lesser Glyph of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_1.png"
         },
         {
             "id": 5059,
             "name": "Lesser Glyph of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_1.png"
         },
         {
             "id": 5061,
             "name": "Lesser Seal of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5062,
             "name": "Lesser Seal of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_1.png"
         },
         {
             "id": 5063,
             "name": "Lesser Seal of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5065,
             "name": "Lesser Seal of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5067,
             "name": "Lesser Seal of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5071,
             "name": "Lesser Seal of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5072,
             "name": "Lesser Seal of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_1.png"
         },
         {
             "id": 5073,
             "name": "Lesser Seal of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5074,
             "name": "Lesser Seal of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_1.png"
         },
         {
             "id": 5075,
             "name": "Lesser Seal of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5076,
             "name": "Lesser Seal of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_1.png"
         },
         {
             "id": 5077,
             "name": "Lesser Seal of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5078,
             "name": "Lesser Seal of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_1.png"
         },
         {
             "id": 5081,
             "name": "Lesser Seal of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5083,
             "name": "Lesser Seal of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5084,
             "name": "Lesser Seal of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_1.png"
         },
         {
             "id": 5085,
             "name": "Lesser Seal of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_1.png"
         },
         {
             "id": 5086,
             "name": "Lesser Seal of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_1.png"
         },
         {
             "id": 5087,
             "name": "Lesser Seal of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_1.png"
         },
         {
             "id": 5088,
             "name": "Lesser Seal of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_1.png"
         },
         {
             "id": 5091,
             "name": "Lesser Quintessence of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5092,
             "name": "Lesser Quintessence of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5093,
             "name": "Lesser Quintessence of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5095,
             "name": "Lesser Quintessence of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5097,
             "name": "Lesser Quintessence of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5099,
             "name": "Lesser Quintessence of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5101,
             "name": "Lesser Quintessence of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5102,
             "name": "Lesser Quintessence of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5103,
             "name": "Lesser Quintessence of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5104,
             "name": "Lesser Quintessence of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5105,
             "name": "Lesser Quintessence of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5106,
             "name": "Lesser Quintessence of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5107,
             "name": "Lesser Quintessence of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5108,
             "name": "Lesser Quintessence of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5111,
             "name": "Lesser Quintessence of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5112,
             "name": "Lesser Quintessence of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5113,
             "name": "Lesser Quintessence of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5114,
             "name": "Lesser Quintessence of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5115,
             "name": "Lesser Quintessence of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5116,
             "name": "Lesser Quintessence of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5117,
             "name": "Lesser Quintessence of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5118,
             "name": "Lesser Quintessence of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5119,
             "name": "Lesser Quintessence of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5121,
             "name": "Lesser Quintessence of Movement Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_1.png"
         },
         {
             "id": 5123,
             "name": "Mark of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5124,
             "name": "Mark of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_2.png"
         },
         {
             "id": 5125,
             "name": "Mark of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5127,
             "name": "Mark of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5129,
             "name": "Mark of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5131,
             "name": "Mark of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5133,
             "name": "Mark of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5134,
             "name": "Mark of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_2.png"
         },
         {
             "id": 5135,
             "name": "Mark of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5137,
             "name": "Mark of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5138,
             "name": "Mark of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_2.png"
         },
         {
             "id": 5143,
             "name": "Mark of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5145,
             "name": "Mark of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5146,
             "name": "Mark of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_2.png"
         },
         {
             "id": 5147,
             "name": "Mark of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5148,
             "name": "Mark of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_2.png"
         },
         {
             "id": 5149,
             "name": "Mark of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_2.png"
         },
         {
             "id": 5151,
             "name": "Mark of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5153,
             "name": "Glyph of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5154,
             "name": "Glyph of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_2.png"
         },
         {
             "id": 5155,
             "name": "Glyph of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5157,
             "name": "Glyph of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5159,
             "name": "Glyph of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5163,
             "name": "Glyph of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5164,
             "name": "Glyph of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_2.png"
         },
         {
             "id": 5165,
             "name": "Glyph of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5167,
             "name": "Glyph of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5168,
             "name": "Glyph of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_2.png"
         },
         {
             "id": 5169,
             "name": "Glyph of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5173,
             "name": "Glyph of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5174,
             "name": "Glyph of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_2.png"
         },
         {
             "id": 5175,
             "name": "Glyph of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5176,
             "name": "Glyph of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_2.png"
         },
         {
             "id": 5177,
             "name": "Glyph of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5178,
             "name": "Glyph of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_2.png"
         },
         {
             "id": 5179,
             "name": "Glyph of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_2.png"
         },
         {
             "id": 5180,
             "name": "Glyph of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_2.png"
         },
         {
             "id": 5181,
             "name": "Glyph of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_2.png"
         },
         {
             "id": 5183,
             "name": "Seal of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5184,
             "name": "Seal of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_2.png"
         },
         {
             "id": 5185,
             "name": "Seal of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5187,
             "name": "Seal of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5189,
             "name": "Seal of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5193,
             "name": "Seal of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5194,
             "name": "Seal of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_2.png"
         },
         {
             "id": 5195,
             "name": "Seal of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5196,
             "name": "Seal of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_2.png"
         },
         {
             "id": 5197,
             "name": "Seal of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5198,
             "name": "Seal of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_2.png"
         },
         {
             "id": 5199,
             "name": "Seal of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5200,
             "name": "Seal of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_2.png"
         },
         {
             "id": 5203,
             "name": "Seal of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5205,
             "name": "Seal of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5206,
             "name": "Seal of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_2.png"
         },
         {
             "id": 5207,
             "name": "Seal of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_2.png"
         },
         {
             "id": 5208,
             "name": "Seal of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_2.png"
         },
         {
             "id": 5209,
             "name": "Seal of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_2.png"
         },
         {
             "id": 5210,
             "name": "Seal of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_2.png"
         },
         {
             "id": 5213,
             "name": "Quintessence of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5214,
             "name": "Quintessence of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5215,
             "name": "Quintessence of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5217,
             "name": "Quintessence of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5219,
             "name": "Quintessence of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5221,
             "name": "Quintessence of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5223,
             "name": "Quintessence of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5224,
             "name": "Quintessence of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5225,
             "name": "Quintessence of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5226,
             "name": "Quintessence of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5227,
             "name": "Quintessence of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5228,
             "name": "Quintessence of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5229,
             "name": "Quintessence of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5230,
             "name": "Quintessence of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5233,
             "name": "Quintessence of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5234,
             "name": "Quintessence of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5235,
             "name": "Quintessence of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5236,
             "name": "Quintessence of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5237,
             "name": "Quintessence of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5238,
             "name": "Quintessence of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5239,
             "name": "Quintessence of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5240,
             "name": "Quintessence of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5241,
             "name": "Quintessence of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5243,
             "name": "Quintessence of Movement Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_2.png"
         },
         {
             "id": 5245,
             "name": "Greater Mark of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5246,
             "name": "Greater Mark of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_3.png"
         },
         {
             "id": 5247,
             "name": "Greater Mark of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5249,
             "name": "Greater Mark of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5251,
             "name": "Greater Mark of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5253,
             "name": "Greater Mark of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5255,
             "name": "Greater Mark of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5256,
             "name": "Greater Mark of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_3.png"
         },
         {
             "id": 5257,
             "name": "Greater Mark of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5259,
             "name": "Greater Mark of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5260,
             "name": "Greater Mark of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_3.png"
         },
         {
             "id": 5265,
             "name": "Greater Mark of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5267,
             "name": "Greater Mark of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5268,
             "name": "Greater Mark of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_4_3.png"
         },
         {
             "id": 5269,
             "name": "Greater Mark of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5270,
             "name": "Greater Mark of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_2_3.png"
         },
         {
             "id": 5271,
             "name": "Greater Mark of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_3_3.png"
         },
         {
             "id": 5273,
             "name": "Greater Mark of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5275,
             "name": "Greater Glyph of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5276,
             "name": "Greater Glyph of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_3.png"
         },
         {
             "id": 5277,
             "name": "Greater Glyph of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5279,
             "name": "Greater Glyph of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5281,
             "name": "Greater Glyph of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5285,
             "name": "Greater Glyph of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5286,
             "name": "Greater Glyph of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_3.png"
         },
         {
             "id": 5287,
             "name": "Greater Glyph of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5289,
             "name": "Greater Glyph of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5290,
             "name": "Greater Glyph of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_3.png"
         },
         {
             "id": 5291,
             "name": "Greater Glyph of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5295,
             "name": "Greater Glyph of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5296,
             "name": "Greater Glyph of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_3.png"
         },
         {
             "id": 5297,
             "name": "Greater Glyph of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5298,
             "name": "Greater Glyph of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_3.png"
         },
         {
             "id": 5299,
             "name": "Greater Glyph of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5300,
             "name": "Greater Glyph of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_3.png"
         },
         {
             "id": 5301,
             "name": "Greater Glyph of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5302,
             "name": "Greater Glyph of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_4_3.png"
         },
         {
             "id": 5303,
             "name": "Greater Glyph of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_1_3.png"
         },
         {
             "id": 5305,
             "name": "Greater Seal of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5306,
             "name": "Greater Seal of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_3.png"
         },
         {
             "id": 5307,
             "name": "Greater Seal of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5309,
             "name": "Greater Seal of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5311,
             "name": "Greater Seal of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5315,
             "name": "Greater Seal of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5316,
             "name": "Greater Seal of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_3.png"
         },
         {
             "id": 5317,
             "name": "Greater Seal of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5318,
             "name": "Greater Seal of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_3.png"
         },
         {
             "id": 5319,
             "name": "Greater Seal of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5320,
             "name": "Greater Seal of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_3.png"
         },
         {
             "id": 5321,
             "name": "Greater Seal of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5322,
             "name": "Greater Seal of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_3.png"
         },
         {
             "id": 5325,
             "name": "Greater Seal of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5327,
             "name": "Greater Seal of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5328,
             "name": "Greater Seal of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_3.png"
         },
         {
             "id": 5329,
             "name": "Greater Seal of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5330,
             "name": "Greater Seal of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_3.png"
         },
         {
             "id": 5331,
             "name": "Greater Seal of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5332,
             "name": "Greater Seal of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_4_3.png"
         },
         {
             "id": 5335,
             "name": "Greater Quintessence of Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5336,
             "name": "Greater Quintessence of Scaling Attack Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5337,
             "name": "Greater Quintessence of Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5339,
             "name": "Greater Quintessence of Critical Damage",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5341,
             "name": "Greater Quintessence of Critical Chance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5343,
             "name": "Greater Quintessence of Armor Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5345,
             "name": "Greater Quintessence of Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5346,
             "name": "Greater Quintessence of Scaling Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5347,
             "name": "Greater Quintessence of Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5348,
             "name": "Greater Quintessence of Scaling Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5349,
             "name": "Greater Quintessence of Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5350,
             "name": "Greater Quintessence of Scaling Magic Resist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5351,
             "name": "Greater Quintessence of Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5352,
             "name": "Greater Quintessence of Scaling Health Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5355,
             "name": "Greater Quintessence of Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5356,
             "name": "Greater Quintessence of Scaling Cooldown Reduction",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5357,
             "name": "Greater Quintessence of Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5358,
             "name": "Greater Quintessence of Scaling Ability Power",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5359,
             "name": "Greater Quintessence of Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5360,
             "name": "Greater Quintessence of Scaling Mana",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5361,
             "name": "Greater Quintessence of Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5362,
             "name": "Greater Quintessence of Scaling Mana Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5363,
             "name": "Greater Quintessence of Magic Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5365,
             "name": "Greater Quintessence of Movement Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5366,
             "name": "Greater Quintessence of Revival",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5367,
             "name": "Greater Quintessence of Gold",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5368,
             "name": "Greater Quintessence of Experience",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5369,
             "name": "Greater Seal of Energy Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_1_3.png"
         },
         {
             "id": 5370,
             "name": "Greater Seal of Scaling Energy Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5371,
             "name": "Greater Glyph of Energy",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_3_3.png"
         },
         {
             "id": 5372,
             "name": "Greater Glyph of Scaling Energy",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/b_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/b_2_3.png"
         },
         {
             "id": 5373,
             "name": "Greater Quintessence of Energy Regeneration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_3.png"
         },
         {
             "id": 5374,
             "name": "Greater Quintessence of Energy",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5400,
             "name": "Lesser Mark of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_1.png"
         },
         {
             "id": 5401,
             "name": "Mark of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_2.png"
         },
         {
             "id": 5402,
             "name": "Greater Mark of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/r_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/r_1_3.png"
         },
         {
             "id": 5403,
             "name": "Greater Seal of Gold",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5404,
             "name": "Lesser Quintessence of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_1.png"
         },
         {
             "id": 5405,
             "name": "Quintessence of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_2_2.png"
         },
         {
             "id": 5406,
             "name": "Greater Quintessence of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_3_3.png"
         },
         {
             "id": 5407,
             "name": "Lesser Quintessence of Spell Vamp",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5408,
             "name": "Quintessence of Spell Vamp",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5409,
             "name": "Greater Quintessence of Spell Vamp",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 5410,
             "name": "Lesser Quintessence of Life Steal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_1.png"
         },
         {
             "id": 5411,
             "name": "Quintessence of Life Steal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_2.png"
         },
         {
             "id": 5412,
             "name": "Greater Quintessence of Life Steal",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_1_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_1_3.png"
         },
         {
             "id": 5413,
             "name": "Lesser Seal of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_1.png"
         },
         {
             "id": 5414,
             "name": "Seal of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_2_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_2_2.png"
         },
         {
             "id": 5415,
             "name": "Greater Seal of Percent Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/y_3_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/y_3_3.png"
         },
         {
             "id": 5416,
             "name": "Lesser Quintessence of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_1.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_1.png"
         },
         {
             "id": 5417,
             "name": "Quintessence of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_2.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_2.png"
         },
         {
             "id": 5418,
             "name": "Greater Quintessence of Hybrid Penetration",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/bl_4_3.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/bl_4_3.png"
         },
         {
             "id": 8001,
             "name": "Mark of the Crippling Candy Cane",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8001.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8001.png"
         },
         {
             "id": 8002,
             "name": "Lesser Mark of the Yuletide Tannenbaum ",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8002.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8002.png"
         },
         {
             "id": 8003,
             "name": "Glyph of the Special Stocking",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8003.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8003.png"
         },
         {
             "id": 8005,
             "name": "Lesser Glyph of the Gracious Gift",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8005.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8005.png"
         },
         {
             "id": 8006,
             "name": "Lesser Seal of the Stout Snowman",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8006.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8006.png"
         },
         {
             "id": 8007,
             "name": "Lesser Mark of Alpine Attack Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8007.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8007.png"
         },
         {
             "id": 8008,
             "name": "Mark of the Combatant",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8008.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8008.png"
         },
         {
             "id": 8009,
             "name": "Lesser Seal of the Medalist",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8009.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8009.png"
         },
         {
             "id": 8011,
             "name": "Lesser Glyph of the Challenger",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8011.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8011.png"
         },
         {
             "id": 8012,
             "name": "Glyph of the Soaring Slalom",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8012.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8012.png"
         },
         {
             "id": 8013,
             "name": "Quintessence of the Headless Horseman",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8013.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8013.png"
         },
         {
             "id": 8014,
             "name": "Quintessence of the Piercing Screech",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8014.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8014.png"
         },
         {
             "id": 8015,
             "name": "Quintessence of Bountiful Treats",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8015.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8015.png"
         },
         {
             "id": 8016,
             "name": "Quintessence of the Speedy Specter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8016.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8016.png"
         },
         {
             "id": 8017,
             "name": "Quintessence of the Witches Brew",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8017.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8017.png"
         },
         {
             "id": 8019,
             "name": "Greater Quintessence of the Piercing Present",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8019.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8019.png"
         },
         {
             "id": 8020,
             "name": "Greater Quintessence of the Deadly Wreath",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8020.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8020.png"
         },
         {
             "id": 8021,
             "name": "Greater Quintessence of Frosty Health",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8021.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8021.png"
         },
         {
             "id": 8022,
             "name": "Greater Quintessence of Sugar Rush",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8022.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8022.png"
         },
         {
             "id": 8035,
             "name": "Greater Quintessence of Studio Rumble",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/8035.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/8035.png"
         },
         {
             "id": 10001,
             "name": "Razer Mark of Precision",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/10001.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/10001.png"
         },
         {
             "id": 10002,
             "name": "Razer Quintessence of Speed",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/rune/10002.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/rune/10002.png"
         }
     ],
     "masteries": [
@@ -4813,207 +4826,207 @@
         {
             "id": 6111,
             "name": "Fury",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6111.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6111.png"
         },
         {
             "id": 6114,
             "name": "Sorcery",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6114.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6114.png"
         },
         {
             "id": 6121,
             "name": "Double Edged Sword",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6121.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6121.png"
         },
         {
             "id": 6122,
             "name": "Feast",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6122.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6122.png"
         },
         {
             "id": 6123,
             "name": "Expose Weakness",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6123.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6123.png"
         },
         {
             "id": 6131,
             "name": "Vampirism",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6131.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6131.png"
         },
         {
             "id": 6134,
             "name": "Natural Talent",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6134.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6134.png"
         },
         {
             "id": 6141,
             "name": "Bounty Hunter",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6141.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6141.png"
         },
         {
             "id": 6142,
             "name": "Oppressor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6142.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6142.png"
         },
         {
             "id": 6151,
             "name": "Battering Blows",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6151.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6151.png"
         },
         {
             "id": 6154,
             "name": "Piercing Thoughts",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6154.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6154.png"
         },
         {
             "id": 6161,
             "name": "Warlord's Bloodlust",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6161.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6161.png"
         },
         {
             "id": 6162,
             "name": "Fervor of Battle",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6162.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6162.png"
         },
         {
             "id": 6164,
             "name": "Deathfire Touch",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6164.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6164.png"
         },
         {
             "id": 6211,
             "name": "Recovery",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6211.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6211.png"
         },
         {
             "id": 6212,
             "name": "Unyielding",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6212.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6212.png"
         },
         {
             "id": 6221,
             "name": "Explorer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6221.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6221.png"
         },
         {
             "id": 6223,
             "name": "Tough Skin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6223.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6223.png"
         },
         {
             "id": 6231,
             "name": "Runic Armor",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6231.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6231.png"
         },
         {
             "id": 6232,
             "name": "Veteran's Scars",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6232.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6232.png"
         },
         {
             "id": 6241,
             "name": "Insight",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6241.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6241.png"
         },
         {
             "id": 6242,
             "name": "Perseverance",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6242.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6242.png"
         },
         {
             "id": 6251,
             "name": "Swiftness",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6251.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6251.png"
         },
         {
             "id": 6252,
             "name": "Legendary Guardian",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6252.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6252.png"
         },
         {
             "id": 6261,
             "name": "Grasp of the Undying",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6261.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6261.png"
         },
         {
             "id": 6262,
             "name": "Strength of the Ages",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6262.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6262.png"
         },
         {
             "id": 6263,
             "name": "Bond of Stone",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6263.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6263.png"
         },
         {
             "id": 6311,
             "name": "Wanderer",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6311.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6311.png"
         },
         {
             "id": 6312,
             "name": "Savagery",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6312.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6312.png"
         },
         {
             "id": 6321,
             "name": "Runic Affinity",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6321.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6321.png"
         },
         {
             "id": 6322,
             "name": "Secret Stash",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6322.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6322.png"
         },
         {
             "id": 6323,
             "name": "Assassin",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6323.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6323.png"
         },
         {
             "id": 6331,
             "name": "Merciless",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6331.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6331.png"
         },
         {
             "id": 6332,
             "name": "Meditation",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6332.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6332.png"
         },
         {
             "id": 6342,
             "name": "Bandit",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6342.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6342.png"
         },
         {
             "id": 6343,
             "name": "Dangerous Game",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6343.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6343.png"
         },
         {
             "id": 6351,
             "name": "Precision",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6351.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6351.png"
         },
         {
             "id": 6352,
             "name": "Intelligence",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6352.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6352.png"
         },
         {
             "id": 6361,
             "name": "Stormraider's Surge",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6361.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6361.png"
         },
         {
             "id": 6362,
             "name": "Thunderlord's Decree",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6362.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6362.png"
         },
         {
             "id": 6363,
             "name": "Windspeaker's Blessing",
-            "image": "https://ddragon.leagueoflegends.com/cdn/6.15.1/img/mastery/6363.png"
+            "image": "https://ddragon.leagueoflegends.com/cdn/6.16.2/img/mastery/6363.png"
         }
     ]
 }
